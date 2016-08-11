@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("IsWalking", false);
         }
 
-        body1.MovePosition(body1.position + movement_vector * Time.deltaTime * 1.3F);
+        body1.MovePosition(body1.position + movement_vector * Time.deltaTime * 1.0F);
 
 
     }
