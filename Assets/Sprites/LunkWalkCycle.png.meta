@@ -1,0 +1,1447 @@
+fileFormatVersion: 2
+guid: d10c3ee5f7d1ff940a3725b2644d8b97
+timeCreated: 1470678298
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: LunkWalkCycle_0
+    21300002: LunkWalkCycle_1
+    21300004: LunkWalkCycle_2
+    21300006: LunkWalkCycle_3
+    21300008: LunkWalkCycle_4
+    21300010: LunkWalkCycle_5
+    21300012: LunkWalkCycle_6
+    21300014: LunkWalkCycle_7
+    21300016: LunkWalkCycle_8
+    21300018: LunkWalkCycle_9
+    21300020: LunkWalkCycle_10
+    21300022: LunkWalkCycle_11
+    21300024: LunkWalkCycle_12
+    21300026: LunkWalkCycle_13
+    21300028: LunkWalkCycle_14
+    21300030: LunkWalkCycle_15
+    21300032: LunkWalkCycle_16
+    21300034: LunkWalkCycle_17
+    21300036: LunkWalkCycle_18
+    21300038: LunkWalkCycle_19
+    21300040: LunkWalkCycle_20
+    21300042: LunkWalkCycle_21
+    21300044: LunkWalkCycle_22
+    21300046: LunkWalkCycle_23
+    21300048: LunkWalkCycle_24
+    21300050: LunkWalkCycle_25
+    21300052: LunkWalkCycle_26
+    21300054: LunkWalkCycle_27
+    21300056: LunkWalkCycle_28
+    21300058: LunkWalkCycle_29
+    21300060: LunkWalkCycle_30
+    21300062: LunkWalkCycle_31
+    21300064: LunkWalkCycle_32
+    21300066: LunkWalkCycle_33
+    21300068: LunkWalkCycle_34
+    21300070: LunkWalkCycle_35
+    21300072: LunkWalkCycle_36
+    21300074: LunkWalkCycle_37
+    21300076: LunkWalkCycle_38
+    21300078: LunkWalkCycle_39
+    21300080: LunkWalkCycle_40
+    21300082: LunkWalkCycle_41
+    21300084: LunkWalkCycle_42
+    21300086: LunkWalkCycle_43
+    21300088: LunkWalkCycle_44
+    21300090: LunkWalkCycle_45
+    21300092: LunkWalkCycle_46
+    21300094: LunkWalkCycle_47
+    21300096: LunkWalkCycle_48
+    21300098: LunkWalkCycle_49
+    21300100: LunkWalkCycle_50
+    21300102: LunkWalkCycle_51
+    21300104: LunkWalkCycle_52
+    21300106: LunkWalkCycle_53
+    21300108: LunkWalkCycle_54
+    21300110: LunkWalkCycle_55
+    21300112: LunkWalkCycle_56
+    21300114: LunkWalkCycle_57
+    21300116: LunkWalkCycle_58
+    21300118: LunkWalkCycle_59
+    21300120: LunkWalkCycle_60
+    21300122: LunkWalkCycle_61
+    21300124: LunkWalkCycle_62
+    21300126: LunkWalkCycle_63
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: LunkWalkCycle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 52}
+        - {x: -33, y: 34}
+        - {x: -34, y: 23}
+        - {x: -34, y: -20}
+        - {x: -25, y: -43}
+        - {x: 18, y: -43}
+        - {x: 32, y: -38}
+        - {x: 32, y: 39}
+        - {x: 11, y: 52}
+      - - {x: 10, y: 48}
+        - {x: 13, y: 49}
+        - {x: 13, y: 52}
+        - {x: 10, y: 53}
+        - {x: 8, y: 51}
+    - name: LunkWalkCycle_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 53}
+        - {x: -34, y: 30}
+        - {x: -34, y: -24}
+        - {x: -27, y: -48}
+        - {x: 25, y: -48}
+        - {x: 32, y: -25}
+        - {x: 32, y: 53}
+      - - {x: 11, y: 49}
+        - {x: 14, y: 50}
+        - {x: 14, y: 53}
+        - {x: 11, y: 54}
+        - {x: 9, y: 52}
+    - name: LunkWalkCycle_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 55}
+        - {x: -33, y: 39}
+        - {x: -33, y: -48}
+        - {x: -32, y: -49}
+        - {x: 1, y: -49}
+        - {x: 30, y: -40}
+        - {x: 32, y: -36}
+        - {x: 32, y: 27}
+        - {x: 22, y: 55}
+    - name: LunkWalkCycle_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 52}
+        - {x: -32, y: 37}
+        - {x: -32, y: -48}
+        - {x: 8, y: -48}
+        - {x: 30, y: -41}
+        - {x: 33, y: -36}
+        - {x: 33, y: 24}
+        - {x: 27, y: 52}
+      - - {x: 11, y: 48}
+        - {x: 14, y: 49}
+        - {x: 14, y: 52}
+        - {x: 11, y: 53}
+        - {x: 9, y: 51}
+    - name: LunkWalkCycle_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 52}
+        - {x: -33, y: 29}
+        - {x: -33, y: -39}
+        - {x: -17, y: -43}
+        - {x: 26, y: -43}
+        - {x: 33, y: -34}
+        - {x: 33, y: 23}
+        - {x: 28, y: 52}
+      - - {x: 12, y: 48}
+        - {x: 15, y: 49}
+        - {x: 15, y: 52}
+        - {x: 12, y: 53}
+        - {x: 10, y: 51}
+    - name: LunkWalkCycle_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 54}
+        - {x: -20, y: 52}
+        - {x: -32, y: 27}
+        - {x: -32, y: -21}
+        - {x: -14, y: -47}
+        - {x: 19, y: -47}
+        - {x: 26, y: -45}
+        - {x: 36, y: -24}
+        - {x: 36, y: 10}
+        - {x: 22, y: 54}
+    - name: LunkWalkCycle_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 54}
+        - {x: -14, y: 54}
+        - {x: -33, y: 34}
+        - {x: -33, y: -16}
+        - {x: -27, y: -37}
+        - {x: 1, y: -49}
+        - {x: 33, y: -49}
+        - {x: 33, y: 39}
+        - {x: 22, y: 51}
+      - - {x: 11, y: 50}
+        - {x: 14, y: 51}
+        - {x: 14, y: 54}
+        - {x: 11, y: 55}
+        - {x: 9, y: 53}
+    - name: LunkWalkCycle_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 52}
+        - {x: -34, y: 33}
+        - {x: -34, y: -30}
+        - {x: -30, y: -43}
+        - {x: -24, y: -48}
+        - {x: 24, y: -48}
+        - {x: 34, y: -41}
+        - {x: 34, y: 37}
+        - {x: 21, y: 52}
+      - - {x: 10, y: 48}
+        - {x: 13, y: 49}
+        - {x: 13, y: 52}
+        - {x: 10, y: 53}
+        - {x: 8, y: 51}
+    - name: LunkWalkCycle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 52}
+        - {x: -30, y: 34}
+        - {x: -30, y: 4}
+        - {x: -27, y: -37}
+        - {x: -11, y: -42}
+        - {x: 16, y: -42}
+        - {x: 28, y: -35}
+        - {x: 28, y: 52}
+    - name: LunkWalkCycle_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 55}
+        - {x: -32, y: -40}
+        - {x: -20, y: -43}
+        - {x: 30, y: -43}
+        - {x: 30, y: 55}
+    - name: LunkWalkCycle_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 56}
+        - {x: -36, y: 53}
+        - {x: -36, y: -28}
+        - {x: -29, y: -37}
+        - {x: 32, y: -37}
+        - {x: 32, y: 52}
+        - {x: 26, y: 56}
+    - name: LunkWalkCycle_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 53}
+        - {x: -35, y: 47}
+        - {x: -35, y: -11}
+        - {x: -34, y: -28}
+        - {x: -23, y: -44}
+        - {x: 25, y: -44}
+        - {x: 28, y: -41}
+        - {x: 28, y: 53}
+    - name: LunkWalkCycle_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 52}
+        - {x: -14, y: 52}
+        - {x: -30, y: 39}
+        - {x: -30, y: -23}
+        - {x: -28, y: -37}
+        - {x: -16, y: -42}
+        - {x: 23, y: -42}
+        - {x: 38, y: -1}
+        - {x: 38, y: 37}
+        - {x: 24, y: 51}
+    - name: LunkWalkCycle_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 55}
+        - {x: -31, y: 50}
+        - {x: -33, y: 45}
+        - {x: -33, y: -30}
+        - {x: -30, y: -41}
+        - {x: 23, y: -41}
+        - {x: 27, y: -36}
+        - {x: 27, y: 55}
+    - name: LunkWalkCycle_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 44}
+        - {x: -35, y: 0}
+        - {x: -26, y: -37}
+        - {x: 16, y: -37}
+        - {x: 25, y: -36}
+        - {x: 28, y: -31}
+        - {x: 28, y: 55}
+        - {x: -13, y: 55}
+        - {x: -32, y: 51}
+    - name: LunkWalkCycle_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 53}
+        - {x: -18, y: 53}
+        - {x: -35, y: 31}
+        - {x: -35, y: 8}
+        - {x: -28, y: -34}
+        - {x: -17, y: -45}
+        - {x: -11, y: -47}
+        - {x: 21, y: -47}
+        - {x: 28, y: -36}
+        - {x: 28, y: 43}
+    - name: LunkWalkCycle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 52}
+        - {x: -26, y: 49}
+        - {x: -26, y: -26}
+        - {x: -11, y: -42}
+        - {x: 20, y: -42}
+        - {x: 33, y: -32}
+        - {x: 33, y: 49}
+        - {x: 30, y: 52}
+    - name: LunkWalkCycle_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 55}
+        - {x: -29, y: 45}
+        - {x: -29, y: -33}
+        - {x: -19, y: -43}
+        - {x: 29, y: -43}
+        - {x: 33, y: -33}
+        - {x: 33, y: 51}
+        - {x: 20, y: 55}
+    - name: LunkWalkCycle_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 56}
+        - {x: -25, y: 56}
+        - {x: -31, y: 29}
+        - {x: -31, y: -32}
+        - {x: -26, y: -37}
+        - {x: 30, y: -37}
+        - {x: 34, y: -21}
+        - {x: 36, y: -11}
+        - {x: 36, y: 37}
+    - name: LunkWalkCycle_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 53}
+        - {x: -27, y: 53}
+        - {x: -27, y: -39}
+        - {x: -20, y: -44}
+        - {x: 14, y: -44}
+        - {x: 31, y: -32}
+        - {x: 36, y: -11}
+        - {x: 36, y: 37}
+    - name: LunkWalkCycle_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 52}
+        - {x: -20, y: 52}
+        - {x: -21, y: 51}
+        - {x: -35, y: 35}
+        - {x: -35, y: 7}
+        - {x: -18, y: -42}
+        - {x: 18, y: -42}
+        - {x: 29, y: -28}
+        - {x: 33, y: -22}
+        - {x: 33, y: 45}
+    - name: LunkWalkCycle_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 55}
+        - {x: -28, y: 21}
+        - {x: -28, y: -36}
+        - {x: -21, y: -41}
+        - {x: 26, y: -41}
+        - {x: 33, y: -37}
+        - {x: 33, y: 38}
+        - {x: 17, y: 55}
+    - name: LunkWalkCycle_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 55}
+        - {x: -27, y: -32}
+        - {x: -23, y: -36}
+        - {x: -15, y: -37}
+        - {x: 34, y: -37}
+        - {x: 36, y: -29}
+        - {x: 36, y: 40}
+        - {x: 22, y: 55}
+    - name: LunkWalkCycle_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 53}
+        - {x: -28, y: 46}
+        - {x: -28, y: -29}
+        - {x: -27, y: -36}
+        - {x: -19, y: -44}
+        - {x: -14, y: -43}
+        - {x: 2, y: -47}
+        - {x: 15, y: -47}
+        - {x: 36, y: -35}
+        - {x: 36, y: 51}
+        - {x: 29, y: 53}
+    - name: LunkWalkCycle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 53}
+        - {x: -27, y: 41}
+        - {x: -32, y: 36}
+        - {x: -32, y: -43}
+        - {x: 29, y: -43}
+        - {x: 30, y: -41}
+        - {x: 30, y: 35}
+        - {x: 13, y: 53}
+    - name: LunkWalkCycle_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 55}
+        - {x: -36, y: 36}
+        - {x: -36, y: -21}
+        - {x: -26, y: -40}
+        - {x: 29, y: -40}
+        - {x: 29, y: 53}
+        - {x: 26, y: 55}
+    - name: LunkWalkCycle_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 55}
+        - {x: 15, y: 56}
+        - {x: -17, y: 56}
+        - {x: -35, y: 28}
+        - {x: -35, y: -31}
+        - {x: -21, y: -38}
+        - {x: 28, y: -38}
+        - {x: 30, y: -28}
+        - {x: 30, y: 43}
+    - name: LunkWalkCycle_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 55}
+        - {x: -18, y: 55}
+        - {x: -37, y: 44}
+        - {x: -37, y: -26}
+        - {x: -34, y: -38}
+        - {x: 18, y: -38}
+        - {x: 29, y: -23}
+        - {x: 29, y: 29}
+        - {x: 25, y: 48}
+    - name: LunkWalkCycle_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 53}
+        - {x: -33, y: 34}
+        - {x: -33, y: -40}
+        - {x: -29, y: -43}
+        - {x: 20, y: -43}
+        - {x: 29, y: -35}
+        - {x: 29, y: 29}
+        - {x: 14, y: 53}
+    - name: LunkWalkCycle_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 56}
+        - {x: -33, y: 29}
+        - {x: -33, y: -16}
+        - {x: -30, y: -34}
+        - {x: -6, y: -40}
+        - {x: 25, y: -40}
+        - {x: 31, y: -36}
+        - {x: 31, y: 42}
+        - {x: 17, y: 56}
+    - name: LunkWalkCycle_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 47}
+        - {x: 15, y: 57}
+        - {x: -14, y: 57}
+        - {x: -35, y: 39}
+        - {x: -35, y: -25}
+        - {x: -33, y: -37}
+        - {x: 27, y: -37}
+        - {x: 31, y: -36}
+        - {x: 31, y: 15}
+        - {x: 30, y: 25}
+    - name: LunkWalkCycle_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -15}
+        - {x: -24, y: -38}
+        - {x: 32, y: -38}
+        - {x: 32, y: 34}
+        - {x: 30, y: 50}
+        - {x: 22, y: 55}
+        - {x: -10, y: 55}
+        - {x: -33, y: 35}
+    - name: LunkWalkCycle_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 51}
+        - {x: -18, y: 51}
+        - {x: -34, y: 37}
+        - {x: -34, y: -30}
+        - {x: -24, y: -44}
+        - {x: 25, y: -44}
+        - {x: 32, y: -29}
+        - {x: 32, y: 25}
+        - {x: 22, y: 49}
+      - - {x: 10, y: 47}
+        - {x: 13, y: 48}
+        - {x: 13, y: 51}
+        - {x: 10, y: 52}
+        - {x: 8, y: 50}
+    - name: LunkWalkCycle_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 52}
+        - {x: -36, y: 36}
+        - {x: -36, y: -33}
+        - {x: -32, y: -49}
+        - {x: 14, y: -49}
+        - {x: 32, y: -32}
+        - {x: 32, y: 29}
+        - {x: 28, y: 52}
+      - - {x: 11, y: 48}
+        - {x: 14, y: 49}
+        - {x: 14, y: 52}
+        - {x: 11, y: 53}
+        - {x: 9, y: 51}
+    - name: LunkWalkCycle_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 54}
+        - {x: -33, y: 27}
+        - {x: -33, y: -48}
+        - {x: -29, y: -50}
+        - {x: 14, y: -50}
+        - {x: 32, y: -38}
+        - {x: 32, y: 37}
+        - {x: 17, y: 54}
+    - name: LunkWalkCycle_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 51}
+        - {x: -30, y: 40}
+        - {x: -35, y: 1}
+        - {x: -35, y: -30}
+        - {x: -27, y: -49}
+        - {x: 4, y: -49}
+        - {x: 21, y: -46}
+        - {x: 33, y: -29}
+        - {x: 33, y: 23}
+        - {x: 27, y: 51}
+      - - {x: 11, y: 47}
+        - {x: 14, y: 48}
+        - {x: 14, y: 51}
+        - {x: 11, y: 52}
+        - {x: 9, y: 50}
+    - name: LunkWalkCycle_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 51}
+        - {x: -32, y: 30}
+        - {x: -33, y: 24}
+        - {x: -33, y: -30}
+        - {x: -18, y: -44}
+        - {x: 19, y: -44}
+        - {x: 33, y: -34}
+        - {x: 33, y: 34}
+        - {x: 30, y: 51}
+      - - {x: 12, y: 47}
+        - {x: 15, y: 48}
+        - {x: 15, y: 51}
+        - {x: 12, y: 52}
+        - {x: 10, y: 50}
+    - name: LunkWalkCycle_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 53}
+        - {x: -32, y: 35}
+        - {x: -32, y: -32}
+        - {x: -19, y: -48}
+        - {x: 36, y: -48}
+        - {x: 36, y: 34}
+        - {x: 18, y: 53}
+    - name: LunkWalkCycle_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 53}
+        - {x: -33, y: 36}
+        - {x: -33, y: -28}
+        - {x: -32, y: -37}
+        - {x: -6, y: -50}
+        - {x: 22, y: -50}
+        - {x: 26, y: -48}
+        - {x: 33, y: -28}
+        - {x: 33, y: 12}
+        - {x: 27, y: 53}
+      - - {x: 11, y: 49}
+        - {x: 14, y: 50}
+        - {x: 14, y: 53}
+        - {x: 11, y: 54}
+        - {x: 9, y: 52}
+    - name: LunkWalkCycle_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 51}
+        - {x: -34, y: 34}
+        - {x: -34, y: -44}
+        - {x: -8, y: -49}
+        - {x: 27, y: -49}
+        - {x: 34, y: -37}
+        - {x: 34, y: 12}
+        - {x: 25, y: 51}
+      - - {x: 10, y: 47}
+        - {x: 13, y: 48}
+        - {x: 13, y: 51}
+        - {x: 10, y: 52}
+        - {x: 8, y: 50}
+    - name: LunkWalkCycle_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 53}
+        - {x: -30, y: 49}
+        - {x: -30, y: -38}
+        - {x: -27, y: -41}
+        - {x: 14, y: -41}
+        - {x: 28, y: -34}
+        - {x: 28, y: 45}
+        - {x: 19, y: 53}
+    - name: LunkWalkCycle_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 54}
+        - {x: 14, y: 56}
+        - {x: -20, y: 56}
+        - {x: -32, y: 51}
+        - {x: -32, y: -36}
+        - {x: -16, y: -42}
+        - {x: 25, y: -42}
+        - {x: 30, y: -34}
+        - {x: 30, y: 28}
+        - {x: 28, y: 37}
+    - name: LunkWalkCycle_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 57}
+        - {x: -24, y: 57}
+        - {x: -36, y: 54}
+        - {x: -36, y: -14}
+        - {x: -28, y: -36}
+        - {x: 18, y: -36}
+        - {x: 32, y: -30}
+        - {x: 32, y: 11}
+        - {x: 30, y: 37}
+    - name: LunkWalkCycle_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 52}
+        - {x: 25, y: 54}
+        - {x: -23, y: 54}
+        - {x: -35, y: 37}
+        - {x: -35, y: -32}
+        - {x: -18, y: -43}
+        - {x: 28, y: -43}
+    - name: LunkWalkCycle_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 53}
+        - {x: -26, y: 53}
+        - {x: -30, y: 51}
+        - {x: -30, y: -40}
+        - {x: -20, y: -41}
+        - {x: 17, y: -41}
+        - {x: 25, y: -24}
+        - {x: 28, y: -9}
+        - {x: 28, y: 45}
+    - name: LunkWalkCycle_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 56}
+        - {x: -33, y: -41}
+        - {x: 27, y: -41}
+        - {x: 27, y: 39}
+        - {x: 25, y: 56}
+    - name: LunkWalkCycle_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 58}
+        - {x: -22, y: 54}
+        - {x: -35, y: 39}
+        - {x: -35, y: -6}
+        - {x: -28, y: -36}
+        - {x: 28, y: -36}
+        - {x: 28, y: 52}
+        - {x: 25, y: 58}
+      - - {x: 38, y: 42}
+        - {x: 31, y: 36}
+        - {x: 32, y: 33}
+        - {x: 37, y: 33}
+        - {x: 42, y: 36}
+        - {x: 42, y: 40}
+        - {x: 41, y: 42}
+      - - {x: 39, y: 45}
+        - {x: 42, y: 46}
+        - {x: 42, y: 49}
+        - {x: 39, y: 50}
+        - {x: 37, y: 48}
+    - name: LunkWalkCycle_47
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 54}
+        - {x: -35, y: 46}
+        - {x: -35, y: -31}
+        - {x: -29, y: -46}
+        - {x: 16, y: -46}
+        - {x: 19, y: -44}
+        - {x: 28, y: -29}
+        - {x: 28, y: 47}
+        - {x: 22, y: 54}
+    - name: LunkWalkCycle_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 53}
+        - {x: -26, y: -35}
+        - {x: -10, y: -43}
+        - {x: 26, y: -43}
+        - {x: 33, y: -35}
+        - {x: 33, y: 47}
+        - {x: 25, y: 53}
+    - name: LunkWalkCycle_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 54}
+        - {x: -29, y: -43}
+        - {x: 18, y: -43}
+        - {x: 33, y: -35}
+        - {x: 33, y: 42}
+        - {x: 15, y: 54}
+    - name: LunkWalkCycle_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 55}
+        - {x: -27, y: 35}
+        - {x: -26, y: 23}
+        - {x: -31, y: -6}
+        - {x: -31, y: -29}
+        - {x: -29, y: -34}
+        - {x: -21, y: -37}
+        - {x: 36, y: -37}
+        - {x: 36, y: 43}
+        - {x: 22, y: 55}
+    - name: LunkWalkCycle_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 53}
+        - {x: -19, y: 53}
+        - {x: -27, y: 42}
+        - {x: -27, y: -38}
+        - {x: -25, y: -44}
+        - {x: 16, y: -44}
+        - {x: 32, y: -32}
+        - {x: 36, y: -11}
+        - {x: 36, y: 34}
+    - name: LunkWalkCycle_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 51}
+        - {x: -25, y: 46}
+        - {x: -25, y: -32}
+        - {x: -22, y: -43}
+        - {x: 33, y: -43}
+        - {x: 33, y: 42}
+        - {x: 17, y: 51}
+    - name: LunkWalkCycle_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 54}
+        - {x: -28, y: 50}
+        - {x: -28, y: -40}
+        - {x: -26, y: -42}
+        - {x: 26, y: -42}
+        - {x: 33, y: -36}
+        - {x: 33, y: 37}
+        - {x: 19, y: 54}
+    - name: LunkWalkCycle_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 54}
+        - {x: -27, y: 39}
+        - {x: -27, y: -33}
+        - {x: -12, y: -38}
+        - {x: 32, y: -38}
+        - {x: 36, y: -22}
+        - {x: 36, y: 40}
+        - {x: 19, y: 54}
+      - - {x: -39, y: 47}
+        - {x: -41, y: 45}
+        - {x: -41, y: 42}
+        - {x: -39, y: 40}
+        - {x: -38, y: 40}
+        - {x: -35, y: 43}
+        - {x: -35, y: 45}
+        - {x: -37, y: 47}
+    - name: LunkWalkCycle_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 53}
+        - {x: -26, y: 52}
+        - {x: -28, y: 42}
+        - {x: -28, y: -37}
+        - {x: -21, y: -47}
+        - {x: 17, y: -47}
+        - {x: 36, y: -37}
+        - {x: 36, y: 43}
+        - {x: 15, y: 53}
+    - name: LunkWalkCycle_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 54}
+        - {x: -32, y: 41}
+        - {x: -32, y: -39}
+        - {x: -31, y: -42}
+        - {x: 26, y: -42}
+        - {x: 30, y: -28}
+        - {x: 30, y: 40}
+        - {x: 19, y: 54}
+    - name: LunkWalkCycle_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 57}
+        - {x: -11, y: 57}
+        - {x: -36, y: 38}
+        - {x: -36, y: -19}
+        - {x: -30, y: -39}
+        - {x: 22, y: -39}
+        - {x: 31, y: -27}
+        - {x: 31, y: 27}
+        - {x: 26, y: 46}
+    - name: LunkWalkCycle_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 42}
+        - {x: 16, y: 58}
+        - {x: -5, y: 58}
+        - {x: -19, y: 55}
+        - {x: -35, y: 36}
+        - {x: -35, y: -27}
+        - {x: -20, y: -37}
+        - {x: 1, y: -37}
+        - {x: 23, y: -35}
+        - {x: 34, y: -14}
+        - {x: 34, y: 6}
+        - {x: 31, y: 25}
+    - name: LunkWalkCycle_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 57}
+        - {x: -15, y: 57}
+        - {x: -37, y: 28}
+        - {x: -37, y: -20}
+        - {x: -24, y: -37}
+        - {x: 22, y: -37}
+        - {x: 30, y: -33}
+        - {x: 30, y: 39}
+        - {x: 20, y: 53}
+    - name: LunkWalkCycle_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 55}
+        - {x: -33, y: 37}
+        - {x: -33, y: -36}
+        - {x: -26, y: -42}
+        - {x: 29, y: -42}
+        - {x: 29, y: 48}
+        - {x: 20, y: 55}
+    - name: LunkWalkCycle_61
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 57}
+        - {x: -33, y: 31}
+        - {x: -33, y: -35}
+        - {x: -32, y: -39}
+        - {x: 29, y: -39}
+        - {x: 33, y: -35}
+        - {x: 33, y: 36}
+        - {x: 21, y: 57}
+    - name: LunkWalkCycle_62
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 59}
+        - {x: -24, y: 59}
+        - {x: -35, y: 48}
+        - {x: -35, y: -32}
+        - {x: -34, y: -36}
+        - {x: 25, y: -36}
+        - {x: 34, y: -19}
+        - {x: 34, y: 52}
+        - {x: 33, y: 58}
+    - name: LunkWalkCycle_63
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 54}
+        - {x: 17, y: 57}
+        - {x: -25, y: 57}
+        - {x: -33, y: 48}
+        - {x: -33, y: -21}
+        - {x: -28, y: -37}
+        - {x: 19, y: -37}
+        - {x: 25, y: -32}
+        - {x: 34, y: -16}
+        - {x: 34, y: 32}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
