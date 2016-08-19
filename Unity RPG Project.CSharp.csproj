@@ -67,10 +67,11 @@
     <Compile Include="Assets\Scripts\Enemies\BatAttack.cs" />
     <Compile Include="Assets\Scripts\Enemies\BatMovement.cs" />
     <Compile Include="Assets\Scripts\Enemies\Health.cs" />
-    <Compile Include="Assets\Scripts\Enemies\ZombieMovement.cs" />
+    <Compile Include="Assets\Scripts\Enemies\KnightMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Spawning.cs" />
     <Compile Include="Assets\Scripts\TextInteractions.cs" />
     <Compile Include="Assets\Scripts\WarpAuto.cs" />
     <Compile Include="Assets\Scripts\WarpManual.cs" />

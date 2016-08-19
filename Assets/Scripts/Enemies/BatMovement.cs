@@ -10,49 +10,79 @@ public class BatMovement : MonoBehaviour
     public float timerMax;
     public int rand = 1;
 
+    public int aggroRange;
+    public GameObject player;
+    public Transform batpos;
+    public Transform playerpos;
+    
+
+
     // Use this for initialization
     void Start()
     {
-        collisions = GameObject.FindGameObjectsWithTag("GenCollisions");
-       
+       collisions = GameObject.FindGameObjectsWithTag("GenCollisions");
+
+       batpos = GetComponent<Transform>();
+       player = GameObject.FindGameObjectWithTag("Player");
+       playerpos = player.GetComponent<Transform>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (timer > timerMax)
+        /*       Collider2D[] aggroplayer = Physics2D.OverlapCircleAll(batpos.position, aggroRange, 0);
+               foreach (Collider2D entity in aggroplayer)
+               {
+                   if (entity == player)
+                   {
+                       Debug.Log("FAIL");
+                       transform.Translate(Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime));
+                   }
+               }*/
+
+        if (Vector2.Distance(batpos.position, playerpos.position) < aggroRange)
         {
-            rand = Random.Range(1, 9);
-            timerMax = Random.Range(1, 3);
-            timer = 0;
+            transform.position = Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime);
+            //transform.Translate(Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime));
         }
-        timer += Time.deltaTime;
-        switch (rand)
+
+        else
         {
-            case 1:
-                transform.Translate(Vector2.up * speed * Time.deltaTime);
-                break;
-            case 2:
-                transform.Translate(-Vector2.up * speed * Time.deltaTime);
-                break;
-            case 3:
-                transform.Translate(Vector2.right * speed * Time.deltaTime);
-                break;
-            case 4:
-                transform.Translate(-Vector2.right * speed * Time.deltaTime);
-                break;
-            case 5:
-                transform.Translate((Vector2.up + Vector2.right).normalized * speed * Time.deltaTime);
-                break;
-            case 6:
-                transform.Translate((Vector2.up + Vector2.left).normalized * speed * Time.deltaTime);
-                break;
-            case 7:
-                transform.Translate((Vector2.down - Vector2.right).normalized * speed * Time.deltaTime);
-                break;
-            case 8:
-                transform.Translate((Vector2.down - Vector2.left).normalized * speed * Time.deltaTime);
-                break;
+
+            if (timer > timerMax)
+            {
+                rand = Random.Range(1, 9);
+                timerMax = Random.Range(1, 3);
+                timer = 0;
+            }
+            timer += Time.deltaTime;
+            switch (rand)
+            {
+                case 1:
+                    transform.Translate(Vector2.up * speed * Time.deltaTime);
+                    break;
+                case 2:
+                    transform.Translate(-Vector2.up * speed * Time.deltaTime);
+                    break;
+                case 3:
+                    transform.Translate(Vector2.right * speed * Time.deltaTime);
+                    break;
+                case 4:
+                    transform.Translate(-Vector2.right * speed * Time.deltaTime);
+                    break;
+                case 5:
+                    transform.Translate((Vector2.up + Vector2.right).normalized * speed * Time.deltaTime);
+                    break;
+                case 6:
+                    transform.Translate((Vector2.up + Vector2.left).normalized * speed * Time.deltaTime);
+                    break;
+                case 7:
+                    transform.Translate((Vector2.down - Vector2.right).normalized * speed * Time.deltaTime);
+                    break;
+                case 8:
+                    transform.Translate((Vector2.down - Vector2.left).normalized * speed * Time.deltaTime);
+                    break;
+            }
         }
     }
     public void OnCollisionStay2D(Collision2D other)

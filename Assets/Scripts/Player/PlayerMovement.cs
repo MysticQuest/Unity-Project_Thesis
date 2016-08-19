@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
     Rigidbody2D body1;
-    Animator anim;
+    public Animator anim;
 
 
     // Use this for initialization
