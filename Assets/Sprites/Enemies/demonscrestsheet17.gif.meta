@@ -1,0 +1,1123 @@
+fileFormatVersion: 2
+guid: 9774cb25b06ab4c4cad22e4b712a5cc6
+timeCreated: 1471789647
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: demonscrestsheet17_0
+    21300002: demonscrestsheet17_1
+    21300004: demonscrestsheet17_2
+    21300006: demonscrestsheet17_3
+    21300008: demonscrestsheet17_4
+    21300010: demonscrestsheet17_5
+    21300012: demonscrestsheet17_6
+    21300014: demonscrestsheet17_7
+    21300016: demonscrestsheet17_8
+    21300018: demonscrestsheet17_9
+    21300020: demonscrestsheet17_10
+    21300022: demonscrestsheet17_11
+    21300024: demonscrestsheet17_12
+    21300026: demonscrestsheet17_13
+    21300028: demonscrestsheet17_14
+    21300030: demonscrestsheet17_15
+    21300032: demonscrestsheet17_16
+    21300034: demonscrestsheet17_17
+    21300036: demonscrestsheet17_18
+    21300038: demonscrestsheet17_19
+    21300040: demonscrestsheet17_20
+    21300042: demonscrestsheet17_21
+    21300044: demonscrestsheet17_22
+    21300046: demonscrestsheet17_23
+    21300048: demonscrestsheet17_24
+    21300050: demonscrestsheet17_25
+    21300052: demonscrestsheet17_26
+    21300054: demonscrestsheet17_27
+    21300056: demonscrestsheet17_28
+    21300058: demonscrestsheet17_29
+    21300060: demonscrestsheet17_30
+    21300062: demonscrestsheet17_31
+    21300064: demonscrestsheet17_32
+    21300066: demonscrestsheet17_33
+    21300068: demonscrestsheet17_34
+    21300070: demonscrestsheet17_35
+    21300072: demonscrestsheet17_36
+    21300074: demonscrestsheet17_37
+    21300076: demonscrestsheet17_38
+    21300078: demonscrestsheet17_39
+    21300080: demonscrestsheet17_40
+    21300082: demonscrestsheet17_41
+    21300084: demonscrestsheet17_42
+    21300086: demonscrestsheet17_43
+    21300088: demonscrestsheet17_44
+    21300090: demonscrestsheet17_45
+    21300092: demonscrestsheet17_46
+    21300094: demonscrestsheet17_47
+    21300096: demonscrestsheet17_48
+    21300098: demonscrestsheet17_49
+    21300100: demonscrestsheet17_50
+    21300102: demonscrestsheet17_51
+    21300104: demonscrestsheet17_52
+    21300106: demonscrestsheet17_53
+    21300108: demonscrestsheet17_54
+    21300110: demonscrestsheet17_55
+    21300112: demonscrestsheet17_56
+    21300114: demonscrestsheet17_57
+    21300116: demonscrestsheet17_58
+    21300118: demonscrestsheet17_59
+    21300120: demonscrestsheet17_60
+    21300122: demonscrestsheet17_61
+    21300124: demonscrestsheet17_62
+    21300126: demonscrestsheet17_63
+    21300128: demonscrestsheet17_64
+    21300130: demonscrestsheet17_65
+    21300132: demonscrestsheet17_66
+    21300134: demonscrestsheet17_67
+    21300136: demonscrestsheet17_68
+    21300138: demonscrestsheet17_69
+    21300140: demonscrestsheet17_70
+    21300142: demonscrestsheet17_71
+    21300144: demonscrestsheet17_72
+    21300146: demonscrestsheet17_73
+    21300148: demonscrestsheet17_74
+    21300150: demonscrestsheet17_75
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: demonscrestsheet17_0
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 521
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 521
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 521
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 521
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 521
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_5
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 521
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 470
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_7
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 470
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_8
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 470
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_9
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 470
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 417
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 417
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_12
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 417
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_13
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 417
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_14
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 417
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_15
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 417
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_16
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 417
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 417
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 417
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_19
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 417
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_20
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 417
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_21
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 417
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 365
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_23
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 364
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_24
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 361
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_25
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 363
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_26
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 363
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_27
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 361
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_28
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 364
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_29
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 365
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_30
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 316
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_31
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 316
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_32
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 314
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_33
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 314
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_34
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 316
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_35
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 316
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 269
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_37
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 269
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_38
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 269
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_39
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 269
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_40
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 269
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_41
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 269
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_42
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 269
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_43
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 269
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 206
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_45
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 198
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_46
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 177
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_47
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 200
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_48
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 206
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_49
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 206
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_50
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 206
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_51
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 206
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_52
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 200
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_53
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 177
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_54
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 198
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_55
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 206
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_56
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 118
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_57
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 118
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_58
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 80
+        width: 63
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_59
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 80
+        width: 63
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_60
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 43
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_61
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 43
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_62
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_63
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_64
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_65
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_66
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_67
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_68
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_69
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_70
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_71
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_72
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_73
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_74
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: demonscrestsheet17_75
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

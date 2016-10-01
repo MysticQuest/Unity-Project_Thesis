@@ -10,13 +10,24 @@ public class Health : MonoBehaviour {
     public bool isDamaged;
 
     public BatMovement batMovement;
+    public KnightMovement knightMovement;
+
+    public GameObject bat;
+    public GameObject knight;
+    public GameObject monster;
 
     // Use this for initialization
     void Start ()
     {
+        bat = GameObject.Find("Bat");
+        knight = GameObject.Find("Knight");
+        monster = GameObject.Find("Monster");
+
         anim = GetComponent<Animator>();
         batMovement = GetComponent<BatMovement>();
+        knightMovement = GetComponent<KnightMovement>();
         currentHealth = startingHealth;
+
     }
 	
 	// Update is called once per frame
@@ -38,7 +49,8 @@ public class Health : MonoBehaviour {
     {
         isDead = true;
         //   anim.SetTrigger("Dead");
-        batMovement.enabled = false;
+        //   knightMovement.enabled = false;
+        //batMovement.enabled = false;
         Destroy(gameObject);
     }
 }

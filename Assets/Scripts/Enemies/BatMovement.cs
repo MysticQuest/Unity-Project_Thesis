@@ -10,7 +10,7 @@ public class BatMovement : MonoBehaviour
     public float timerMax;
     public int rand = 1;
 
-    public int aggroRange;
+    public float aggroRange;
     public GameObject player;
     public Transform batpos;
     public Transform playerpos;
@@ -43,6 +43,7 @@ public class BatMovement : MonoBehaviour
         if (Vector2.Distance(batpos.position, playerpos.position) < aggroRange)
         {
             transform.position = Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime);
+
             //transform.Translate(Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime));
         }
 

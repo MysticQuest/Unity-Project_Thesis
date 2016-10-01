@@ -10,6 +10,7 @@ public class PlayerAttack : MonoBehaviour {
     public bool IsAttacking = false;
     public float timer;
 
+    public GameObject player;
     public GameObject enemy;
     public Health health;
     public PlayerHealth playerHealth;
@@ -18,15 +19,20 @@ public class PlayerAttack : MonoBehaviour {
     void Start ()
     {
         enemy = GameObject.FindWithTag("Enemy");
-        health = enemy.GetComponent<Health>();
-        playerHealth = GetComponent<PlayerHealth>();
+        player = GameObject.FindWithTag("Player");
+        playerHealth = player.GetComponent<PlayerHealth>();
 
         body1 = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+
+        if (enemy != null)
+        {
+            health = enemy.GetComponent<Health>();
+        }
     }
 	
 	void Update ()
     {
+        anim = GetComponent<Animator>();
         if (Input.GetMouseButton(0))
         {
             anim.SetBool("IsAttacking", true);
@@ -49,9 +55,12 @@ public class PlayerAttack : MonoBehaviour {
     void Attack()
     {
         timer = 0f;
-        if (health.currentHealth > 0)
+        if (health != null)
         {
-            health.Damaged(damage);
+            if (health.currentHealth > 0)
+            {
+                health.Damaged(damage);
+            }
         }
     }
 
@@ -64,19 +73,19 @@ public class PlayerAttack : MonoBehaviour {
             if (IsAttacking == true)
             {
                 inRange = true;
-                                Vector2 directionVector = other.transform.position - transform.position;
-                                Rigidbody2D body = other.GetComponent<Rigidbody2D>();
-                                if (body != null)
-                                {
-                                    float forceMagnitude = 0.8f;
-                                    ForceMode2D mode = ForceMode2D.Impulse;
-                                    body.AddForce(directionVector * forceMagnitude, mode);
-                                } 
+                Vector2 directionVector = other.transform.position - transform.position;
+                Rigidbody2D body = other.GetComponent<Rigidbody2D>();
+                if (body != null)
+                {
+                    float forceMagnitude = 0.8f;
+                    ForceMode2D mode = ForceMode2D.Impulse;
+                    body.AddForce(directionVector * forceMagnitude, mode);
+                }
             }
-                            else
-                            {
-                                inRange = false;
-                            }
+            else
+            {
+                inRange = false;
+            }
 
 
                         }
