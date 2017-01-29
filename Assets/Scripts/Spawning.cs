@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Spawning : MonoBehaviour
 {
+    public DayNight globaltimer;
+    public DayNight daycount;
 
     public float timer1 = 0.0f;
     public float timer2 = 0.0f;
@@ -48,6 +50,9 @@ public class Spawning : MonoBehaviour
 
     void Start()
     {
+        globaltimer = GameObject.Find("Canvas").GetComponent<DayNight>();
+        daycount = GameObject.Find("Canvas").GetComponent<DayNight>();
+
         spawn1 = GameObject.Find("spawn1");
         spawn2 = GameObject.Find("spawn2");
         spawn3 = GameObject.Find("spawn3");
@@ -79,13 +84,13 @@ public class Spawning : MonoBehaviour
         timer2 += Time.deltaTime;
         timer3 += Time.deltaTime;
 
-        if (timer1 >= mfreq)
+        if (timer1 >= mfreq && globaltimer.timer > 65f && globaltimer.timer < 110f)
             SpawnMonster();
 
         if (timer2 >= bfreq)
             SpawnBat();
 
-        if (timer3 >= kfreq)
+        if (timer3 >= kfreq && daycount.day > 1 && globaltimer.timer <70f)
             SpawnKnight();
 
     }
@@ -121,10 +126,10 @@ public class Spawning : MonoBehaviour
             location = tspawn6;
         }
 
-        if (bsum > bmax)
+        /*if (bsum > bmax)
         {
             return;
-        }
+        }*/
         genericBat = Instantiate(Bat, location.position, location.rotation) as GameObject;
         genericBat.GetComponent<Rigidbody>();
         bsum += 1;
@@ -145,10 +150,10 @@ public class Spawning : MonoBehaviour
             location = tspawnB;
         }
 
-        if (msum > mmax)
+        /*if (msum > mmax)
         {
             return;
-        }
+        }*/
         genericMonster = Instantiate(Monster, location.position, location.rotation) as GameObject;
         genericMonster.GetComponent<Rigidbody>();
         msum += 1;
@@ -169,10 +174,10 @@ public class Spawning : MonoBehaviour
             location = tspawnB;
         }
 
-        if (ksum > kmax)
+        /*if (ksum > kmax)
         {
             return;
-        }
+        }*/
         genericKnight = Instantiate(Knight, location.position, location.rotation) as GameObject;
         genericKnight.GetComponent<Rigidbody>();
         ksum += 1;

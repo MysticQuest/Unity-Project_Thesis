@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\Enemies\BatAttack.cs" />
     <Compile Include="Assets\Scripts\Enemies\BatMovement.cs" />
     <Compile Include="Assets\Scripts\Enemies\Health.cs" />
+    <Compile Include="Assets\Scripts\Enemies\ItemDrops.cs" />
     <Compile Include="Assets\Scripts\Enemies\KnightAttack.cs" />
     <Compile Include="Assets\Scripts\Enemies\KnightMovement.cs" />
     <Compile Include="Assets\Scripts\Player\HouseHealth.cs" />

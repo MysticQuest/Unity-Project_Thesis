@@ -1,0 +1,3660 @@
+fileFormatVersion: 2
+guid: a52e11346fa69dc43a87f272c1ba145c
+timeCreated: 1485704147
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_0
+    21300002: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_1
+    21300004: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_2
+    21300006: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_3
+    21300008: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_4
+    21300010: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_5
+    21300012: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_6
+    21300014: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_7
+    21300016: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_8
+    21300018: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_9
+    21300020: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_10
+    21300022: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_11
+    21300024: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_12
+    21300026: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_13
+    21300028: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_14
+    21300030: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_15
+    21300032: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_16
+    21300034: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_17
+    21300036: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_18
+    21300038: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_19
+    21300040: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_20
+    21300042: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_21
+    21300044: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_22
+    21300046: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_23
+    21300048: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_24
+    21300050: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_25
+    21300052: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_26
+    21300054: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_27
+    21300056: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_28
+    21300058: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_29
+    21300060: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_30
+    21300062: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_31
+    21300064: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_32
+    21300066: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_33
+    21300068: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_34
+    21300070: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_35
+    21300072: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_36
+    21300074: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_37
+    21300076: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_38
+    21300078: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_39
+    21300080: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_40
+    21300082: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_41
+    21300084: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_42
+    21300086: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_43
+    21300088: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_44
+    21300090: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_45
+    21300092: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_46
+    21300094: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_47
+    21300096: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_48
+    21300098: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_49
+    21300100: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_50
+    21300102: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_51
+    21300104: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_52
+    21300106: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_53
+    21300108: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_54
+    21300110: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_55
+    21300112: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_56
+    21300114: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_57
+    21300116: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_58
+    21300118: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_59
+    21300120: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_60
+    21300122: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_61
+    21300124: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_62
+    21300126: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_63
+    21300128: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_64
+    21300130: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_65
+    21300132: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_66
+    21300134: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_67
+    21300136: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_68
+    21300138: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_69
+    21300140: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_70
+    21300142: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_71
+    21300144: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_72
+    21300146: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_73
+    21300148: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_74
+    21300150: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_75
+    21300152: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_76
+    21300154: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_77
+    21300156: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_78
+    21300158: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_79
+    21300160: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_80
+    21300162: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_81
+    21300164: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_82
+    21300166: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_83
+    21300168: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_84
+    21300170: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_85
+    21300172: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_86
+    21300174: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_87
+    21300176: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_88
+    21300178: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_89
+    21300180: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_90
+    21300182: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_91
+    21300184: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_92
+    21300186: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_93
+    21300188: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_94
+    21300190: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_95
+    21300192: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_96
+    21300194: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_97
+    21300196: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_98
+    21300198: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_99
+    21300200: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_100
+    21300202: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_101
+    21300204: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_102
+    21300206: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_103
+    21300208: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_104
+    21300210: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_105
+    21300212: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_106
+    21300214: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_107
+    21300216: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_108
+    21300218: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_109
+    21300220: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_110
+    21300222: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_111
+    21300224: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_112
+    21300226: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_113
+    21300228: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_114
+    21300230: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_115
+    21300232: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_116
+    21300234: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_117
+    21300236: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_118
+    21300238: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_119
+    21300240: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_120
+    21300242: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_121
+    21300244: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_122
+    21300246: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_123
+    21300248: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_124
+    21300250: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_125
+    21300252: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_126
+    21300254: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_127
+    21300256: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_128
+    21300258: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_129
+    21300260: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_130
+    21300262: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_131
+    21300264: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_132
+    21300266: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_133
+    21300268: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_134
+    21300270: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_135
+    21300272: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_136
+    21300274: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_137
+    21300276: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_138
+    21300278: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_139
+    21300280: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_140
+    21300282: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_141
+    21300284: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_142
+    21300286: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_143
+    21300288: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_144
+    21300290: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_145
+    21300292: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_146
+    21300294: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_147
+    21300296: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_148
+    21300298: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_149
+    21300300: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_150
+    21300302: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_151
+    21300304: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_152
+    21300306: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_153
+    21300308: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_154
+    21300310: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_155
+    21300312: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_156
+    21300314: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_157
+    21300316: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_158
+    21300318: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_159
+    21300320: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_160
+    21300322: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_161
+    21300324: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_162
+    21300326: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_163
+    21300328: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_164
+    21300330: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_165
+    21300332: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_166
+    21300334: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_167
+    21300336: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_168
+    21300338: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_169
+    21300340: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_170
+    21300342: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_171
+    21300344: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_172
+    21300346: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_173
+    21300348: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_174
+    21300350: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_175
+    21300352: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_176
+    21300354: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_177
+    21300356: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_178
+    21300358: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_179
+    21300360: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_180
+    21300362: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_181
+    21300364: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_182
+    21300366: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_183
+    21300368: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_184
+    21300370: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_185
+    21300372: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_186
+    21300374: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_187
+    21300376: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_188
+    21300378: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_189
+    21300380: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_190
+    21300382: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_191
+    21300384: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_192
+    21300386: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_193
+    21300388: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_194
+    21300390: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_195
+    21300392: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_196
+    21300394: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_197
+    21300396: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_198
+    21300398: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_199
+    21300400: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_200
+    21300402: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_201
+    21300404: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_202
+    21300406: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_203
+    21300408: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_204
+    21300410: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_205
+    21300412: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_206
+    21300414: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_207
+    21300416: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_208
+    21300418: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_209
+    21300420: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_210
+    21300422: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_211
+    21300424: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_212
+    21300426: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_213
+    21300428: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_214
+    21300430: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_215
+    21300432: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_216
+    21300434: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_217
+    21300436: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_218
+    21300438: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_219
+    21300440: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_220
+    21300442: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_221
+    21300444: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_222
+    21300446: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_223
+    21300448: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_224
+    21300450: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_225
+    21300452: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_226
+    21300454: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_227
+    21300456: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_228
+    21300458: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_229
+    21300460: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_230
+    21300462: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_231
+    21300464: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_232
+    21300466: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_233
+    21300468: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_234
+    21300470: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_235
+    21300472: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_236
+    21300474: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_237
+    21300476: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_238
+    21300478: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_239
+    21300480: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_240
+    21300482: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_241
+    21300484: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_242
+    21300486: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_243
+    21300488: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_244
+    21300490: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_245
+    21300492: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_246
+    21300494: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_247
+    21300496: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_248
+    21300498: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_249
+    21300500: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_250
+    21300502: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_251
+    21300504: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_252
+    21300506: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_253
+    21300508: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_254
+    21300510: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_255
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 732
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 734
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 736
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 732
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 734
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 730
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 730
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_7
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 730
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_8
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 734
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 730
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_10
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 730
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_11
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 734
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_12
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 732
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_13
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 728
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_14
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 730
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_15
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 730
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 682
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_17
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 682
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_18
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 686
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 686
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_20
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 682
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_21
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 684
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 684
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_23
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 682
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_24
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 678
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_25
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 684
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_26
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 682
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_27
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 682
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_28
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 684
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_29
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 682
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_30
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 678
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_31
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 682
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_32
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 636
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 634
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_34
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 638
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_35
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 634
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_36
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 636
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_37
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 638
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_38
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 636
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_39
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 636
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_40
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 638
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_41
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 636
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_42
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 634
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_43
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 636
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_44
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 636
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_45
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 634
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_46
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 636
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_47
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 634
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 586
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_49
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_51
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 582
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_52
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 580
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_53
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 582
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_54
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 582
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_55
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 582
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_56
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 582
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_57
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 584
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_58
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 582
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_59
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 582
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_60
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 582
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_61
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 582
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_62
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 580
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_63
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 588
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_64
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 542
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_65
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 542
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_66
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 540
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_67
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 540
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_68
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 540
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_69
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 540
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_70
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 536
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_71
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 534
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_72
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 532
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_73
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 534
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_74
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 536
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_75
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 538
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_76
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 538
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_77
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 532
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_78
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 534
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_79
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 532
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_80
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 488
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_81
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 488
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_82
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 486
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_83
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 488
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_84
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 488
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_85
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 484
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_86
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 488
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_87
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 488
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_88
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 488
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_89
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 488
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_90
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 486
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_91
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 482
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_92
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 484
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_93
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 490
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_94
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 484
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_95
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 490
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_96
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 440
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_97
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 438
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_98
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 436
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_99
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 436
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_100
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 438
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_101
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 444
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_102
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 444
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_103
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 444
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_104
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 444
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_105
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 444
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_106
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 442
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_107
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 440
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_108
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 440
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_109
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 440
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_110
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 440
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_111
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 440
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_112
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 394
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_113
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 394
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_114
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 398
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_115
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 394
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_116
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 392
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_117
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 396
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_118
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 394
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_119
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 394
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_120
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 394
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_121
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 394
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_122
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 392
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_123
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 390
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_124
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 394
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_125
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 392
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_126
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 394
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_127
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 392
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_128
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 344
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_129
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 348
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_130
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 344
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_131
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 342
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_132
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 342
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_133
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 342
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_134
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 342
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_135
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 344
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_136
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 344
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_137
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 344
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_138
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 344
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_139
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 340
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_140
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 342
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_141
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 344
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_142
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 348
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_143
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 348
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_144
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 300
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_145
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 296
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_146
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 298
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_147
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 292
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_148
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 294
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_149
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 294
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_150
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 298
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_151
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 298
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_152
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 296
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_153
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 296
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_154
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 296
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_155
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 296
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_156
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 294
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_157
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 296
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_158
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 294
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_159
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 296
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_160
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 252
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_161
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 250
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_162
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 250
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_163
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 250
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_164
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 248
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_165
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_166
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 252
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_167
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 252
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_168
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 252
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_169
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 252
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_170
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 252
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_171
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 252
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_172
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 252
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_173
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 252
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_174
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 244
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_175
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 252
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_176
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 200
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_177
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 200
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_178
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 200
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_179
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 200
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_180
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 200
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_181
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 202
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_182
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_183
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 200
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_184
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 202
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_185
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 204
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_186
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 204
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_187
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 200
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_188
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 206
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_189
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 198
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_190
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 202
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_191
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 204
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_192
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 156
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_193
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 154
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_194
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 154
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_195
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 154
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_196
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 150
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_197
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 152
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_198
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 152
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_199
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 152
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_200
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 152
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_201
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 152
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_202
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 152
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_203
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 152
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_204
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 152
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_205
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 154
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_206
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 156
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_207
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 154
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_208
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 104
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_209
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 106
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_210
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 106
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_211
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 104
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_212
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 108
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_213
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 110
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_214
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 106
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_215
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 110
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_216
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 108
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_217
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 108
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_218
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 106
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_219
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 104
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_220
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 102
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_221
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 108
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_222
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 104
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_223
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 102
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_224
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 58
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_225
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 58
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_226
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 60
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_227
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 60
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_228
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 60
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_229
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 60
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_230
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 54
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_231
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 54
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_232
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 58
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_233
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 56
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_234
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 56
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_235
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 56
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_236
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 56
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_237
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 56
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_238
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 56
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_239
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 56
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_240
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_241
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 6
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_242
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 8
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_243
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 10
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_244
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 12
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_245
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 8
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_246
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 8
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_247
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 8
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_248
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 8
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_249
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 8
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_250
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 10
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_251
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 10
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_252
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 10
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_253
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 10
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_254
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 12
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: a_whole_lot_of_rpg_items_by_orteil-d6a8fic_255
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 8
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
