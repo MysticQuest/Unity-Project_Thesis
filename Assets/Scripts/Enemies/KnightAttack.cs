@@ -8,9 +8,12 @@ public class KnightAttack : MonoBehaviour
     public float attackCooldown = 0.5f;
 
     public GameObject player;
+    public GameObject house;
     public Health health;
     public PlayerHealth playerHealth;
+    public HouseHealth houseHealth;
     public bool inRange;
+    public bool inRange2;
     public float timer;
 
 
@@ -18,7 +21,9 @@ public class KnightAttack : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player");
+        house = GameObject.FindWithTag("HouseHitbox");
         playerHealth = player.GetComponent<PlayerHealth>();
+        houseHealth = house.GetComponent<HouseHealth>();
         health = GetComponent<Health>();
     }
 
@@ -28,6 +33,10 @@ public class KnightAttack : MonoBehaviour
         {
             inRange = true;
         }
+        else if (other.gameObject == house)
+        {
+            inRange2 = true;
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
@@ -35,6 +44,10 @@ public class KnightAttack : MonoBehaviour
         if (other.gameObject == player)
         {
             inRange = false;
+        }
+        else if (other.gameObject == house)
+        {
+            inRange2 = false;
         }
     }
 
@@ -44,16 +57,29 @@ public class KnightAttack : MonoBehaviour
         timer += Time.deltaTime;
         if (timer >= attackCooldown && inRange && health.currentHealth >= 0)
         {
-            Attack();
+            AttackP();
+        }
+        else if (timer >= attackCooldown && inRange2 && health.currentHealth >= 0)
+        {
+            AttackH();
         }
     }
 
-    void Attack()
+    void AttackP()
     {
         timer = 0f;
         if (playerHealth.currentHealth > 0)
         {
             playerHealth.Damaged(damage);
+        }
+    }
+
+    void AttackH()
+    {
+        timer = 0f;
+        if (houseHealth.currentHealth > 0)
+        {
+            houseHealth.Damaged(damage);
         }
     }
 }

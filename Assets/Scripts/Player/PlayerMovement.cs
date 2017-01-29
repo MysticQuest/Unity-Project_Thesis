@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D body1;
     public Animator anim;
+    public bool isAttacking;
 
 
     // Use this for initialization
@@ -19,8 +20,8 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        Vector2 movement_vector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        isAttacking = anim.GetBool("IsAttacking");
+        Vector2 movement_vector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
 
         if (movement_vector != Vector2.zero)
         {
@@ -32,8 +33,13 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("IsWalking", false);
         }
 
-        body1.MovePosition(body1.position + movement_vector * Time.deltaTime * 1.0F);
-
-
+        if (isAttacking == false)
+        {
+            body1.MovePosition(body1.position + movement_vector * Time.deltaTime * 1.0F);
+        }
+        else
+        {
+            body1.MovePosition(body1.position + movement_vector * Time.deltaTime * 0.5F);
+        }
     }
 }

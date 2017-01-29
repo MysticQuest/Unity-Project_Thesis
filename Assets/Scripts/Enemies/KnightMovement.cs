@@ -13,8 +13,10 @@ public class KnightMovement : MonoBehaviour {
     public Transform closestPosition;
 
     public GameObject player;
+    public GameObject house;
     public Transform playerpos;
     public Transform playerpos2;
+    public Transform housepos;
     public float playerposY;
 
     GameObject finalwaypoint;
@@ -24,9 +26,9 @@ public class KnightMovement : MonoBehaviour {
     public float attackCooldown;
     public float attackCooldownM;
     public float timerCooldown;
-    float timer;
-    float timerMax;
-    int rand;
+    public float timer;
+    public float timerMax;
+    public int rand;
     float animtimer;
     GameObject[] collisions;
 
@@ -37,6 +39,7 @@ public class KnightMovement : MonoBehaviour {
     int y;
 
     public float aggroRange;
+    public float aggroRange2;
     public float attackRange;
     Transform knightpos;
 
@@ -53,13 +56,15 @@ public class KnightMovement : MonoBehaviour {
     {
 
         player = GameObject.FindWithTag("Player");
-        
+        house = GameObject.FindWithTag("House");
 
         //playerposY = playerpos.position.y+1;
         //playerpos2 = new Vector3(x,y,z);
 
         knightpos = GetComponent<Transform>();
         playerpos = player.GetComponent<Transform>();
+        housepos = house.GetComponent<Transform>();
+        
 
         //waypoints = GameObject.FindGameObjectsWithTag("Waypoint");
 
@@ -86,35 +91,44 @@ public class KnightMovement : MonoBehaviour {
                 anim.SetFloat("y", knightvector.y);
                 */
 
-        target = GameObject.Find("Player").transform;
+        //target = GameObject.Find("Player").transform;
+
         animtimer += Time.deltaTime;
 
         if (Vector2.Distance(knightpos.position, playerpos.position) < aggroRange)
         {
-            xDir = target.position.x - transform.position.x;
-            yDir = target.position.y - transform.position.y;
+            xDir = playerpos.position.x - transform.position.x;
+            yDir = playerpos.position.y - transform.position.y;
             if (animtimer > 0.5)
             {
                 anim.SetFloat("x", xDir);
                 anim.SetFloat("y", yDir);
             }
         }
-
-
-        if (Vector2.Distance(knightpos.position, playerpos.position) > aggroRange)
+        else if (Vector2.Distance(knightpos.position, housepos.position) <= attackRange + 0.5)
         {
-            knightvector = transform.position - prevPos;
-            anim.SetFloat("x", knightvector.x);
-            anim.SetFloat("y", knightvector.y);
-            if (animtimer > 0.5)
+            xDir = housepos.position.x - transform.position.x;
+            yDir = housepos.position.y - transform.position.y;
+            if (animtimer > 2)
             {
-                prevPos = transform.position;
+                anim.SetFloat("x", xDir);
+                anim.SetFloat("y", yDir);
                 animtimer = 0;
             }
         }
+        else
+            {
+                knightvector = transform.position - prevPos;
+                anim.SetFloat("x", knightvector.x);
+                anim.SetFloat("y", knightvector.y);
+                if (animtimer > 0.5)
+                {
+                    prevPos = transform.position;
+                    animtimer = 0;
+                }
+            }
 
-
-        if (Vector2.Distance(knightpos.position, playerpos.position) <= attackRange && timerCooldown > attackCooldown)
+        if ((Vector2.Distance(knightpos.position, playerpos.position) <= attackRange && timerCooldown > attackCooldown) || (Vector2.Distance(knightpos.position, housepos.position) <= attackRange +0.6f && timerCooldown > attackCooldown))
         {
             anim.SetBool("IsAttacking", true);
             timerCooldown = 0;
@@ -140,7 +154,10 @@ public class KnightMovement : MonoBehaviour {
             }
 
         }
-
+        else if (Vector2.Distance(knightpos.position, housepos.position) < aggroRange2)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, housepos.position, speed * Time.deltaTime);
+        }
         else if (Vector2.Distance(knightpos.position, playerpos.position) > aggroRange)
         {
  
@@ -159,9 +176,10 @@ public class KnightMovement : MonoBehaviour {
                     //closestPosition.position = Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime);
                 }
             }
+            
             else
             {
-                if (timer > timerMax)
+                if (timer > timerMax)// && transform.position == stop.position)
                 {
                     rand = Random.Range(1, 9);
                     timerMax = Random.Range(1, 3);
@@ -233,7 +251,7 @@ public class KnightMovement : MonoBehaviour {
 
     public void OnCollisionStay2D(Collision2D other)
     {
-        foreach (GameObject collision in collisions)
+          foreach (GameObject collision in collisions)
         {
             if (other.gameObject == collision)
             {

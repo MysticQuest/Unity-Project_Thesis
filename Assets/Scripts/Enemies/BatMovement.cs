@@ -11,9 +11,12 @@ public class BatMovement : MonoBehaviour
     public int rand = 1;
 
     public float aggroRange;
+    public float aggroRange2;
     public GameObject player;
+    public GameObject house;
     public Transform batpos;
     public Transform playerpos;
+    public Transform housepos;
     
 
 
@@ -25,6 +28,9 @@ public class BatMovement : MonoBehaviour
        batpos = GetComponent<Transform>();
        player = GameObject.FindGameObjectWithTag("Player");
        playerpos = player.GetComponent<Transform>();
+
+       house = GameObject.FindGameObjectWithTag("House");
+       housepos = house.GetComponent<Transform>();
     }
 
     // Update is called once per frame
@@ -43,13 +49,13 @@ public class BatMovement : MonoBehaviour
         if (Vector2.Distance(batpos.position, playerpos.position) < aggroRange)
         {
             transform.position = Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime);
-
-            //transform.Translate(Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime));
         }
-
-        else
+        else if (Vector2.Distance(batpos.position, housepos.position) < aggroRange2)
         {
-
+            transform.position = Vector2.MoveTowards(transform.position, housepos.position, speed * Time.deltaTime);
+        }
+        else
+        { 
             if (timer > timerMax)
             {
                 rand = Random.Range(1, 9);
@@ -85,6 +91,7 @@ public class BatMovement : MonoBehaviour
                     break;
             }
         }
+        
     }
     public void OnCollisionStay2D(Collision2D other)
     {

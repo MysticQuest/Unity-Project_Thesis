@@ -7,9 +7,12 @@ public class BatAttack : MonoBehaviour {
     public int attackCooldown = 1;
 
     public GameObject player;
+    public GameObject house;
     public Health health;
     public PlayerHealth playerHealth;
+    public HouseHealth houseHealth;
     public bool inRange;
+    public bool inRange2;
     public float timer;
 
 
@@ -17,7 +20,9 @@ public class BatAttack : MonoBehaviour {
 	void Start ()
     {
         player = GameObject.FindWithTag("Player");
+        house = GameObject.FindWithTag("HouseHitbox");
         playerHealth = player.GetComponent<PlayerHealth>();
+        houseHealth = house.GetComponent<HouseHealth>();
         health = GetComponent<Health>();
 	}
 
@@ -27,6 +32,10 @@ public class BatAttack : MonoBehaviour {
         {
             inRange = true;
         }
+        else if (other.gameObject == house)
+        {
+            inRange2 = true;
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
@@ -34,25 +43,42 @@ public class BatAttack : MonoBehaviour {
         if (other.gameObject == player)
         {
             inRange = false;
-        }   
+        }
+        else if (other.gameObject == house)
+        {
+            inRange2 = false;
+        } 
     }
+
 
     // Update is called once per frame
     void Update()
     {
         timer += Time.deltaTime;
-        if(timer>=attackCooldown && inRange && health.currentHealth >=0)
+        if (timer >= attackCooldown && inRange && health.currentHealth >=0)
         {
-            Attack();
+            AttackP();
+        }
+        else if (timer >= attackCooldown && inRange2 && health.currentHealth >= 0)
+        {
+            AttackH();
         }
     }
 
-    void Attack()
+    void AttackP()
     {
         timer = 0f;
         if (playerHealth.currentHealth > 0)
         {
             playerHealth.Damaged(damage);
+        }
+    }
+    void AttackH()
+    {
+        timer = 0f;
+        if (houseHealth.currentHealth > 0)
+        {
+            houseHealth.Damaged(damage);
         }
     }
 }
