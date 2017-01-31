@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D body1;
     public Animator anim;
     public bool isAttacking;
+    public float speed = 1f;
 
 
     // Use this for initialization
@@ -35,11 +36,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (isAttacking == false)
         {
-            body1.MovePosition(body1.position + movement_vector * Time.deltaTime * 1.0F);
+            body1.MovePosition(body1.position + movement_vector * Time.deltaTime * 1.0F * speed);
         }
         else
         {
-            body1.MovePosition(body1.position + movement_vector * Time.deltaTime * 0.5F);
+            body1.MovePosition(body1.position + movement_vector * Time.deltaTime * 0.5F * speed);
         }
     }
 }

@@ -4,12 +4,29 @@ using System.Collections;
 public class WarpManual : MonoBehaviour
 {
     public Transform target;
-    void OnTriggerStay2D(Collider2D warpToHome)
+    public Interactables inter;
+    public GameObject player;
+    public GameObject keychest;
+
+    void Start()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        keychest = GameObject.FindWithTag("key");
+        player = GameObject.FindWithTag("Player");
+        inter = keychest.GetComponent<Interactables>();
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject == player)
         {
-            warpToHome.transform.position = target.position;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (inter.gotkey == true)
+                {
+                    other.transform.position = target.position;
+                }
+                else Debug.Log("it's locked");
+            }
         }
-        else return;
     }
 }

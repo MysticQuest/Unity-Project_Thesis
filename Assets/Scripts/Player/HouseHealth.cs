@@ -24,7 +24,6 @@ public class HouseHealth : MonoBehaviour {
     {
         isDamaged = true;
         currentHealth -= damage;
-        Debug.Log(currentHealth);
         if (currentHealth <= 0 && !isDead)
         {
             Death();

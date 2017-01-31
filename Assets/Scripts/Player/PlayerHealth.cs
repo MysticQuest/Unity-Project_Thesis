@@ -5,9 +5,11 @@ public class PlayerHealth : MonoBehaviour {
 
     Animator anim;
     public int startingHealth = 100;
-    public int currentHealth;
+    public float currentHealth;
     public bool isDead;
     public bool isDamaged;
+    public bool regen = false;
+    public float maxHealth = 100;
 
     public PlayerMovement playerMovement;
 
@@ -22,7 +24,15 @@ public class PlayerHealth : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-
+        if (regen == true)
+        {
+            currentHealth += Time.deltaTime;
+            maxHealth = 150;
+        }
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
 	}
 
     public void Damaged(int damage)

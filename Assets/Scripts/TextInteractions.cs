@@ -14,8 +14,15 @@ public class TextInteractions : MonoBehaviour {
     public float maximum = 1f;
     public float duration = 5.0f;
 
+    //public GameObject sign;
+    public GameObject player;
+
     // Use this for initialization
-    void Start () {
+    void Start ()
+    {
+        //sign = GameObject.FindWithTag("sign");
+        player = GameObject.FindWithTag("Player");
+
         DialogBox = GameObject.Find("DialogFrame");
         DialogBox.SetActive(false);
         startTime = Time.time;
@@ -34,12 +41,15 @@ public class TextInteractions : MonoBehaviour {
     void Update () {
     }
 
-    void OnTriggerStay2D(Collider2D interCollider)
+    void OnTriggerStay2D(Collider2D other)
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (other.gameObject == player)
         {
-            DialogBox.SetActive(true);
-            displayInfo = true;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                DialogBox.SetActive(true);
+                displayInfo = true;
+            }
         }
         FadeText();
     }

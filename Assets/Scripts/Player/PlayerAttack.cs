@@ -5,7 +5,7 @@ public class PlayerAttack : MonoBehaviour {
 
     Rigidbody2D body1;
     Animator anim;
-    public int damage = 15;
+    public int damage = 10;
     public float attackCooldown = 0.1F;
     public bool IsAttacking = false;
     public float timer;

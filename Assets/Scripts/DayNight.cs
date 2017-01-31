@@ -36,6 +36,7 @@ public class DayNight : MonoBehaviour
         if (timer > 85f) x = 5;
         if (timer > 100f) x = 6;
         if (timer > 125f) x = 7;
+        if (day >= 3 && timer > 60f) x = 8;
 
         switch (x)
         {
@@ -63,6 +64,10 @@ public class DayNight : MonoBehaviour
                 timer = 0;
                 day += 1;
                 Debug.Log("Day - " + day);
+                break;
+            case 8:
+                lighting.color = red;
+                lighting.intensity += 0.03f * Time.deltaTime;
                 break;
         }
     }

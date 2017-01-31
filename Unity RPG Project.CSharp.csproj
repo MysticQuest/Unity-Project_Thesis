@@ -80,10 +80,11 @@
     <Compile Include="Assets\Scripts\Enemies\BatAttack.cs" />
     <Compile Include="Assets\Scripts\Enemies\BatMovement.cs" />
     <Compile Include="Assets\Scripts\Enemies\Health.cs" />
-    <Compile Include="Assets\Scripts\Enemies\ItemDrops.cs" />
     <Compile Include="Assets\Scripts\Enemies\KnightAttack.cs" />
     <Compile Include="Assets\Scripts\Enemies\KnightMovement.cs" />
+    <Compile Include="Assets\Scripts\Interactables.cs" />
     <Compile Include="Assets\Scripts\Player\HouseHealth.cs" />
+    <Compile Include="Assets\Scripts\Player\ItemEffects.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
