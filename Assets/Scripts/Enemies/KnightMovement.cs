@@ -24,7 +24,7 @@ public class KnightMovement : MonoBehaviour {
     
     //Vector3 direction;
     public float attackCooldown;
-    public float attackCooldownM;
+    //public float attackCooldownM;
     public float timerCooldown;
     public float timer;
     public float timerMax;
@@ -143,7 +143,7 @@ public class KnightMovement : MonoBehaviour {
             closest = null;
             closestPosition = null;
 
-            if (speed <= 1)
+            if (speed < 1)
             {
                 transform.position = Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime);
             }

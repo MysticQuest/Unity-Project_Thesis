@@ -9,10 +9,15 @@ public class HouseHealth : MonoBehaviour {
     public bool isDead;
     public bool isDamaged;
 
+    public Animator anim;
+    public GameObject explosion;
+
 
     // Use this for initialization
     void Start () {
+        explosion = GameObject.Find("explosion");
         currentHealth = startingHealth;
+        anim = explosion.GetComponent<Animator>();
     }
 	
 	// Update is called once per frame
@@ -33,7 +38,7 @@ public class HouseHealth : MonoBehaviour {
     public void Death()
     {
         isDead = true;
-        //   anim.SetTrigger("Dead");
+        anim.SetTrigger("Destroyed");
         Destroy(gameObject);
     }
 }

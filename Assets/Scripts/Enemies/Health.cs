@@ -10,11 +10,13 @@ public class Health : MonoBehaviour {
     public bool isDamaged;
 
     public BatMovement batMovement;
+    public BatAttack batAttack;
     public KnightMovement knightMovement;
+    public KnightAttack knightAttack;
 
-    public GameObject bat;
-    public GameObject knight;
-    public GameObject monster;
+    //public GameObject bat;
+    //public GameObject knight;
+    //public GameObject monster;
 
     public GameObject target;
 
@@ -26,19 +28,26 @@ public class Health : MonoBehaviour {
     public GameObject genericDrop3;
     public int randomDrop;
 
+    public GameObject player;
+    public ItemEffects items;
+
+    public Rigidbody2D body;
+    public Collider2D col;
+    //public Transform pos;
+
     // Use this for initialization
     void Start()
     {
         /*bat = GameObject.Find("Bat");
         knight = GameObject.Find("Knight");
-        monster = GameObject.Find("Monster");
-
-        batMovement = GetComponent<BatMovement>();
-        knightMovement = GetComponent<KnightMovement>();*/
+        monster = GameObject.Find("Monster");*/
 
         anim = GetComponent<Animator>();
 
         currentHealth = startingHealth;
+
+        player = GameObject.FindWithTag("Player");
+        items = player.GetComponent<ItemEffects>();
 
     }
 
@@ -48,9 +57,9 @@ public class Health : MonoBehaviour {
         randomDrop = Random.Range(1, 101);
         target = this.gameObject;
 
-        bat = GameObject.Find("Bat(Clone)");
+        /*bat = GameObject.Find("Bat(Clone)");
         knight = GameObject.Find("Knight");
-        monster = GameObject.Find("Monster");
+        monster = GameObject.Find("Monster");*/
     }
 
     public void Damaged(int damage)
@@ -65,54 +74,83 @@ public class Health : MonoBehaviour {
 
     public void Death()
     {
-        Destroy(gameObject);
-        isDead = true;
+        anim.SetTrigger("Death");
 
-        //   anim.SetTrigger("Dead");
-        //   knightMovement.enabled = false;
-        //batMovement.enabled = false;
+        body = GetComponent<Rigidbody2D>();
+        col = GetComponent<Collider2D>();
+        col.enabled = false;
+        body.isKinematic = true;
+        body.velocity = Vector2.zero;
+
+        //body.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezePositionX;
 
         if (target.name == "Bat(Clone)")
         {
-            if (randomDrop <= 33)
+            batMovement = GetComponent<BatMovement>();
+            batAttack = GetComponent<BatAttack>();
+            batMovement.enabled = false;
+            batAttack.enabled = false;
+        }
+        if (target.name == "Knight(Clone)")
+        {
+            knightMovement = GetComponent<KnightMovement>();
+            knightAttack = GetComponent<KnightAttack>();
+            knightAttack.enabled = false;
+            knightMovement.enabled = false;
+        }
+
+        Destroy(gameObject, 2);
+        isDead = true;
+
+        Invoke("DropItem", 1);
+
+        //knightMovement.enabled = false;
+        //batMovement.enabled = false;
+    }
+
+    void DropItem()
+    {
+        if (target.name == "Bat(Clone)")
+        {
+            if (randomDrop <= 45)
             {
                 genericDrop1 = Instantiate(itemDrop1, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 33 && randomDrop <= 65)
+            else if (randomDrop >= 40 && randomDrop <= 75)
             {
                 genericDrop2 = Instantiate(itemDrop2, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 90)
+            else if (randomDrop >= 85 && items.gotgloves == false)
             {
                 genericDrop3 = Instantiate(itemDrop3, transform.position, Quaternion.identity) as GameObject;
             }
         }
         else if (target.name == "Monster(Clone)")
         {
-            if (randomDrop <= 33)
+            if (randomDrop <= 45)
             {
                 genericDrop1 = Instantiate(itemDrop1, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 33 && randomDrop <= 60)
+            else if (randomDrop >= 40 && randomDrop <= 65)
             {
                 genericDrop2 = Instantiate(itemDrop2, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 90)
+            else if (randomDrop >= 92 && items.gotmanual == false)
             {
                 genericDrop3 = Instantiate(itemDrop3, transform.position, Quaternion.identity) as GameObject;
             }
         }
         else if (target.name == "Knight(Clone)")
         {
-            if (randomDrop <= 33)
+            if (randomDrop <= 45)
             {
                 genericDrop1 = Instantiate(itemDrop1, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 33 && randomDrop <= 70)
+            else if (randomDrop >= 40 && randomDrop <= 55)
             {
                 genericDrop2 = Instantiate(itemDrop2, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 95)
+            else if (randomDrop >= 95 && items.gotplate == false)
             {
                 genericDrop3 = Instantiate(itemDrop3, transform.position, Quaternion.identity) as GameObject;
             }

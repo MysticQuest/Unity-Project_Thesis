@@ -9,9 +9,10 @@ public class Spawning : MonoBehaviour
     public float timer1 = 0.0f;
     public float timer2 = 0.0f;
     public float timer3 = 0.0f;
-    float bfreq;
-    float kfreq;
-    float mfreq;
+    public float timer4 = 0.0f;
+    public float bfreq;
+    public float kfreq;
+    public float mfreq;
 
     //public Rigidbody2D fail;
 
@@ -34,11 +35,11 @@ public class Spawning : MonoBehaviour
     public Transform tspawnB;
 
     public Transform location;
-    public int bsum = 0;
-    public int msum = 0;
-    public int ksum = 0;
-    public int bmax = 50;
-    public int mmax = 15;
+    public GameObject[] bsum;
+    public GameObject[] msum;
+    public GameObject[] ksum;
+    public int bmax = 10;
+    public int mmax = 5;
     public int kmax = 3;
 
     public GameObject genericBat;
@@ -47,6 +48,10 @@ public class Spawning : MonoBehaviour
     public GameObject Knight;
     public GameObject genericMonster;
     public GameObject Monster;
+    public GameObject Boss;
+    public GameObject genericBoss;
+
+    public bool bossup = false;
 
     void Start()
     {
@@ -62,8 +67,6 @@ public class Spawning : MonoBehaviour
         spawnA = GameObject.Find("spawnA");
         spawnB = GameObject.Find("spawnB");
 
-
-
         tspawn1 = spawn1.GetComponent<Transform>();
         tspawn2 = spawn2.GetComponent<Transform>();
         tspawn3 = spawn3.GetComponent<Transform>();
@@ -72,11 +75,13 @@ public class Spawning : MonoBehaviour
         tspawn6 = spawn6.GetComponent<Transform>();
         tspawnA = spawnA.GetComponent<Transform>();
         tspawnB = spawnB.GetComponent<Transform>();
+
+
     }
 
     void Update()
     {
-        bfreq = Random.Range(3, 6);
+        bfreq = Random.Range(5, 7);
         mfreq = Random.Range(6, 9);
         kfreq = Random.Range(15, 20);
 
@@ -84,14 +89,21 @@ public class Spawning : MonoBehaviour
         timer2 += Time.deltaTime;
         timer3 += Time.deltaTime;
 
-        if (timer1 >= mfreq && globaltimer.timer > 65f && globaltimer.timer < 110f)
+        bsum = GameObject.FindGameObjectsWithTag("Bat");
+        msum = GameObject.FindGameObjectsWithTag("Monster");
+        ksum = GameObject.FindGameObjectsWithTag("Knight");
+
+        if (timer1 >= mfreq && globaltimer.timer > 120f && globaltimer.timer < 200f)
             SpawnMonster();
 
         if (timer2 >= bfreq)
             SpawnBat();
 
-        if (timer3 >= kfreq && daycount.day > 1 && globaltimer.timer <70f)
+        if (timer3 >= kfreq && daycount.day > 2 && globaltimer.timer <105f)
             SpawnKnight();
+
+        if (daycount.day > 2 && globaltimer.timer > 200f && bossup == false)
+            SpawnBoss();
 
     }
 
@@ -126,13 +138,12 @@ public class Spawning : MonoBehaviour
             location = tspawn6;
         }
 
-        /*if (bsum > bmax)
+        if (bsum.Length < bmax)
         {
-            return;
-        }*/
-        genericBat = Instantiate(Bat, location.position, location.rotation) as GameObject;
-        genericBat.GetComponent<Rigidbody>();
-        bsum += 1;
+            genericBat = Instantiate(Bat, location.position, location.rotation) as GameObject;
+            genericBat.GetComponent<Rigidbody>();
+        }
+        else return;
     }
 
     void SpawnMonster()
@@ -150,13 +161,11 @@ public class Spawning : MonoBehaviour
             location = tspawnB;
         }
 
-        /*if (msum > mmax)
+        if (msum.Length < mmax)
         {
-            return;
-        }*/
-        genericMonster = Instantiate(Monster, location.position, location.rotation) as GameObject;
-        genericMonster.GetComponent<Rigidbody>();
-        msum += 1;
+            genericMonster = Instantiate(Monster, location.position, location.rotation) as GameObject;
+            genericMonster.GetComponent<Rigidbody>();
+        }
     }
 
     void SpawnKnight()
@@ -174,13 +183,19 @@ public class Spawning : MonoBehaviour
             location = tspawnB;
         }
 
-        /*if (ksum > kmax)
+        if (ksum.Length < kmax)
         {
-            return;
-        }*/
-        genericKnight = Instantiate(Knight, location.position, location.rotation) as GameObject;
-        genericKnight.GetComponent<Rigidbody>();
-        ksum += 1;
+            genericKnight = Instantiate(Knight, location.position, location.rotation) as GameObject;
+            genericKnight.GetComponent<Rigidbody>();
+        }
+    }
+
+    void SpawnBoss()
+    {
+        location = tspawnB;
+        bossup = true;
+        genericBoss = Instantiate(Boss, location.position, location.rotation) as GameObject;
+        genericBoss.GetComponent<Rigidbody>();
     }
 
 }

@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: fda5f400371c6654eaa0ba9bd780f980
+timeCreated: 1486171279
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ylvwH1P_0
+    21300002: ylvwH1P_1
+    21300004: ylvwH1P_2
+    21300006: ylvwH1P_3
+    21300008: ylvwH1P_4
+    21300010: ylvwH1P_5
+    21300012: ylvwH1P_6
+    21300014: ylvwH1P_7
+    21300016: ylvwH1P_8
+    21300018: ylvwH1P_9
+    21300020: ylvwH1P_12
+    21300022: ylvwH1P_13
+    21300024: ylvwH1P_42
+    21300026: ylvwH1P_43
+    21300028: ylvwH1P_44
+    21300030: ylvwH1P_45
+    21300032: ylvwH1P_46
+    21300034: ylvwH1P_47
+    21300036: ylvwH1P_48
+    21300038: ylvwH1P_50
+    21300040: ylvwH1P_51
+    21300042: ylvwH1P_52
+    21300044: ylvwH1P_53
+    21300046: ylvwH1P_54
+    21300048: ylvwH1P_55
+    21300050: ylvwH1P_56
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ylvwH1P_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 393
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ylvwH1P_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 389
+        width: 95
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ylvwH1P_3
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 389
+        width: 89
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ylvwH1P_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 392
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ylvwH1P_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 393
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ylvwH1P_7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 286
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ylvwH1P_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 302
+        width: 115
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ylvwH1P_9
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 305
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ylvwH1P_12
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 304
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ylvwH1P_13
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 314
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

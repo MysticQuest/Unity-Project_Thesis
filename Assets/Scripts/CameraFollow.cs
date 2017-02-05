@@ -9,6 +9,7 @@ public class CameraFollow : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+        Cursor.visible = false;
         cam1 = GetComponent<Camera>();
 
 	}

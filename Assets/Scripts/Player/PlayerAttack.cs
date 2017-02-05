@@ -12,26 +12,39 @@ public class PlayerAttack : MonoBehaviour {
 
     public GameObject player;
     public GameObject enemy;
+    public GameObject[] enemies;
+
+    //public GameObject bat;
+    //public GameObject monster;
+    //public GameObject knight;
+
     public Health health;
+    //public Health[] healtharray;
     public PlayerHealth playerHealth;
     public bool inRange;
 
     void Start ()
     {
-        enemy = GameObject.FindWithTag("Enemy");
         player = GameObject.FindWithTag("Player");
         playerHealth = player.GetComponent<PlayerHealth>();
+        //enemy = GameObject.FindWithTag("Enemy");
 
         body1 = GetComponent<Rigidbody2D>();
 
-        if (enemy != null)
+        /*if (enemy != null)
         {
             health = enemy.GetComponent<Health>();
-        }
+        }*/
     }
 	
 	void Update ()
     {
+        //bat = GameObject.FindWithTag("Bat");
+        //monster = GameObject.FindWithTag("Monster");
+        //knight = GameObject.FindWithTag("Knight");
+
+        enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
         anim = GetComponent<Animator>();
         if (Input.GetMouseButton(0))
         {
@@ -66,34 +79,38 @@ public class PlayerAttack : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        enemy = other.gameObject;
-        health = enemy.GetComponent<Health>();
-        if (other.gameObject == enemy)
+        //if (other.gameObject == bat || other.gameObject == monster || other.gameObject == knight)
+        foreach (GameObject enemy in enemies)
         {
-            if (IsAttacking == true)
+            if (enemy == other.gameObject)
             {
-                inRange = true;
-                Vector2 directionVector = other.transform.position - transform.position;
-                Rigidbody2D body = other.GetComponent<Rigidbody2D>();
-                if (body != null)
+                health = enemy.GetComponent<Health>();
+                if (IsAttacking == true)
                 {
-                    float forceMagnitude = 0.8f;
-                    ForceMode2D mode = ForceMode2D.Impulse;
-                    body.AddForce(directionVector * forceMagnitude, mode);
+                    inRange = true;
+                    /*Vector2 directionVector = other.transform.position - transform.position;
+                    Rigidbody2D body = other.GetComponent<Rigidbody2D>();
+                    if (body != null)
+                    {
+                        float forceMagnitude = 0.8f;
+                        ForceMode2D mode = ForceMode2D.Impulse;
+                        body.AddForce(directionVector * forceMagnitude, mode);
+                    }*/
                 }
-            }
-            else
-            {
-                inRange = false;
-            }
+                else
+                {
+                    inRange = false;
+                }
 
 
-                        }
-                    }
+            }
+        }
+    }
 
                     void OnTriggerExit2D(Collider2D other)
                     {
-                        if (other.gameObject == enemy)
+                      //if (other.gameObject == bat || other.gameObject == monster || other.gameObject == knight)
+                      if (other.gameObject == enemy)
                         {
                             if (IsAttacking == true)
                             {
