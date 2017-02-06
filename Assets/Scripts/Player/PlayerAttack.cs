@@ -23,6 +23,8 @@ public class PlayerAttack : MonoBehaviour {
     public PlayerHealth playerHealth;
     public bool inRange;
 
+    public Rigidbody2D body;
+
     void Start ()
     {
         player = GameObject.FindWithTag("Player");
@@ -88,14 +90,23 @@ public class PlayerAttack : MonoBehaviour {
                 if (IsAttacking == true)
                 {
                     inRange = true;
-                    /*Vector2 directionVector = other.transform.position - transform.position;
+
+                    //problematic knockback attempts
+
+                    Vector3 directionVector = other.transform.position - transform.position;
                     Rigidbody2D body = other.GetComponent<Rigidbody2D>();
                     if (body != null)
                     {
-                        float forceMagnitude = 0.8f;
+                        float forceMagnitude = 0.5f;
                         ForceMode2D mode = ForceMode2D.Impulse;
-                        body.AddForce(directionVector * forceMagnitude, mode);
-                    }*/
+                        body.AddForce(directionVector.normalized * forceMagnitude, mode);
+                    }
+                    //Vector3 direction = (other.transform.position - transform.position).normalized;
+                    //body = other.GetComponent<Rigidbody2D>();
+                    //body.AddForce(direction * 10);
+                    /*Vector2 directionVector = other.gameObject.transform.position - this.transform.position;
+                    Rigidbody2D body = other.gameObject.GetComponent<Rigidbody2D>();
+                    body.velocity = directionVector.normalized;*/
                 }
                 else
                 {

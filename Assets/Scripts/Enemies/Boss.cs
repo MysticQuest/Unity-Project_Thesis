@@ -15,7 +15,7 @@ public class Boss : MonoBehaviour {
     public GameObject house;
     //public GameObject bosslight;
     public Transform playerpos;
-    public Transform playerpos2;
+    //public Transform playerpos2;
     public Transform housepos;
     public float playerposY;
 
@@ -54,22 +54,24 @@ public class Boss : MonoBehaviour {
     public float attackDuration = 5f;
 
     public GameObject fire;
-    public BossAttack2 firescript;
+    public BossFire firescript;
     public float firetimer;
     //public GameObject genericfireball;
 
     // Use this for initialization
     void Start()
     {
+        fire = GameObject.FindWithTag("fire");
+        firescript = fire.GetComponent<BossFire>();
+
         player = GameObject.FindWithTag("Player");
         house = GameObject.FindWithTag("House");
         //bosslight = GameObject.Find("bosslight");
-        fire = GameObject.Find("fire");
 
         knightpos = GetComponent<Transform>();
         playerpos = player.GetComponent<Transform>();
         housepos = house.GetComponent<Transform>();
-        firescript = fire.GetComponent<BossAttack2>();
+        
 
         waypoints = GameObject.FindGameObjectsWithTag("Waypoint").ToList();
         finalwaypoint = GameObject.Find("C");
@@ -130,11 +132,6 @@ public class Boss : MonoBehaviour {
             if (timerCooldown > attackDuration)
             {
                 timerCooldown = 0;
-            }
-            if (firetimer > 1)
-            {
-                firescript.Fireball();
-                firetimer = 0;
             }
         }
         else anim.SetBool("IsAttacking", false);

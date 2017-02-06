@@ -145,7 +145,7 @@ public class KnightMovement : MonoBehaviour {
 
             if (speed < 1)
             {
-                transform.position = Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, playerpos.position - playerpos.up * 0.01f, speed * Time.deltaTime);
             }
 
             if (speed > 1)

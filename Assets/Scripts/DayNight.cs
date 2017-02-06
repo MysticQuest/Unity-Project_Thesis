@@ -67,7 +67,10 @@ public class DayNight : MonoBehaviour
                 break;
             case 8:
                 lighting.color = red;
-                lighting.intensity += 0.03f * Time.deltaTime;
+                if (lighting.intensity < 0.85f)
+                {
+                    lighting.intensity += 0.03f * Time.deltaTime;
+                }
                 break;
         }
     }

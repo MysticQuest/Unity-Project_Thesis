@@ -48,7 +48,7 @@ public class BatMovement : MonoBehaviour
 
         if (Vector2.Distance(batpos.position, playerpos.position) < aggroRange)
         {
-            transform.position = Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, playerpos.position - playerpos.up * 0.01f, speed * Time.deltaTime);
         }
         else if (Vector2.Distance(batpos.position, housepos.position) < aggroRange2)
         {

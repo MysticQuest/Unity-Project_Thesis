@@ -12,6 +12,8 @@ public class PlayerHealth : MonoBehaviour {
     public float maxHealth = 100;
 
     public PlayerMovement playerMovement;
+    public float damagedtimer;
+    public float damagecd;
 
 	// Use this for initialization
 	void Start ()
@@ -24,6 +26,7 @@ public class PlayerHealth : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
+        damagedtimer += Time.deltaTime;
         if (regen == true)
         {
             currentHealth += Time.deltaTime;
