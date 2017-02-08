@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -70,9 +67,6 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
     </Reference>
@@ -84,8 +78,6 @@
     <Compile Include="Assets\Scripts\Audio\ExpEffect.cs" />
     <Compile Include="Assets\Scripts\Audio\FireEffect.cs" />
     <Compile Include="Assets\Scripts\Audio\SceneMusic.cs" />
-    <Compile Include="Assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\DayNight.cs" />
     <Compile Include="Assets\Scripts\Enemies\BatAttack.cs" />
     <Compile Include="Assets\Scripts\Enemies\BatMovement.cs" />
     <Compile Include="Assets\Scripts\Enemies\Boss.cs" />
@@ -96,21 +88,24 @@
     <Compile Include="Assets\Scripts\Enemies\Health.cs" />
     <Compile Include="Assets\Scripts\Enemies\KnightAttack.cs" />
     <Compile Include="Assets\Scripts\Enemies\KnightMovement.cs" />
-    <Compile Include="Assets\Scripts\Interactables.cs" />
+    <Compile Include="Assets\Scripts\Menu\UIFunctions.cs" />
+    <Compile Include="Assets\Scripts\Misc\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Misc\DayNight.cs" />
+    <Compile Include="Assets\Scripts\Misc\Interactables.cs" />
+    <Compile Include="Assets\Scripts\Misc\Spawning.cs" />
+    <Compile Include="Assets\Scripts\Misc\SwordInStone.cs" />
+    <Compile Include="Assets\Scripts\Misc\UpgradeSword.cs" />
+    <Compile Include="Assets\Scripts\Misc\WarpAuto.cs" />
+    <Compile Include="Assets\Scripts\Misc\WarpManual.cs" />
     <Compile Include="Assets\Scripts\Player\HouseHealth.cs" />
     <Compile Include="Assets\Scripts\Player\ItemEffects.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Spawning.cs" />
-    <Compile Include="Assets\Scripts\SwordInStone.cs" />
     <Compile Include="Assets\Scripts\Text\TextInteractions.cs" />
     <Compile Include="Assets\Scripts\Text\TextInteractions2.cs" />
     <Compile Include="Assets\Scripts\Text\TextInteractions3.cs" />
     <Compile Include="Assets\Scripts\Text\TextInteractions4.cs" />
-    <Compile Include="Assets\Scripts\UpgradeSword.cs" />
-    <Compile Include="Assets\Scripts\WarpAuto.cs" />
-    <Compile Include="Assets\Scripts\WarpManual.cs" />
     <Compile Include="Assets\Scripts\Weapons\attack.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
