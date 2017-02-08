@@ -10,14 +10,17 @@ public class SwordInStone : MonoBehaviour {
     public PlayerAttack attack;
     public bool gotstone = false;
 
-	// Use this for initialization
-	void Start ()
+    public AudioSource effectplayer;
+
+    // Use this for initialization
+    void Start ()
     {
         player = GameObject.FindWithTag("Player");
         anim = player.GetComponent<Animator>();
         items = player.GetComponent<ItemEffects>();
         attack = player.GetComponent<PlayerAttack>();
-	}
+        effectplayer = GetComponent<AudioSource>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -32,6 +35,7 @@ public class SwordInStone : MonoBehaviour {
             {
                 if (Input.GetKeyDown(KeyCode.E) && gotstone == false)
                 {
+                    effectplayer.Play();
                     anim.SetBool("HasSword", true);
                     gotstone = true;
                     attack.damage += 10;

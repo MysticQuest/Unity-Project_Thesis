@@ -8,10 +8,13 @@ public class Interactables : MonoBehaviour
     public GameObject player;
     public bool gotkey = false;
 
+    public AudioSource effectplayer;
+
     // Use this for initialization
     void Start()
     {
         player = GameObject.FindWithTag("Player");
+        effectplayer = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -26,7 +29,7 @@ public class Interactables : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E) && gotkey == false)
             {
-                Debug.Log("GOT KEY");
+                effectplayer.Play();
                 gotkey = true;
             }
         }

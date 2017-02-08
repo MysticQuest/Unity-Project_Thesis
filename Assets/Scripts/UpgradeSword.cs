@@ -11,6 +11,8 @@ public class UpgradeSword : MonoBehaviour
     public PlayerAttack attack;
     public bool upgraded = false;
 
+    public AudioSource effectplayer;
+
     // Use this for initialization
     void Start()
     {
@@ -18,6 +20,7 @@ public class UpgradeSword : MonoBehaviour
         anim = player.GetComponent<Animator>();
         items = player.GetComponent<ItemEffects>();
         attack = player.GetComponent<PlayerAttack>();
+        effectplayer = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -34,6 +37,7 @@ public class UpgradeSword : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E) && upgraded == false)
                 {
+                    effectplayer.Play();
                     anim.SetBool("Upgraded", true);
                     upgraded = true;
                     attack.damage += 17;

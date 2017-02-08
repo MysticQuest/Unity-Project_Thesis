@@ -143,12 +143,12 @@ public class KnightMovement : MonoBehaviour {
             closest = null;
             closestPosition = null;
 
-            if (speed < 1)
+            if (gameObject.name == "Knight(Clone)")
             {
                 transform.position = Vector2.MoveTowards(transform.position, playerpos.position - playerpos.up * 0.01f, speed * Time.deltaTime);
             }
 
-            if (speed > 1)
+            else
             {
                 transform.position = Vector2.MoveTowards(transform.position, playerpos.position + playerpos.up * 0.3f, speed * Time.deltaTime);
             }

@@ -32,8 +32,10 @@ public class Health : MonoBehaviour {
     public ItemEffects items;
 
     public Rigidbody2D body;
-    public Collider2D col;
+    //public Collider2D[] col;
     //public Transform pos;
+
+    public AudioSource effectplayer;
 
     // Use this for initialization
     void Start()
@@ -48,6 +50,8 @@ public class Health : MonoBehaviour {
 
         player = GameObject.FindWithTag("Player");
         items = player.GetComponent<ItemEffects>();
+
+        effectplayer = GetComponent<AudioSource>();
 
     }
 
@@ -74,11 +78,19 @@ public class Health : MonoBehaviour {
 
     public void Death()
     {
+        effectplayer.Play();
         anim.SetTrigger("Death");
 
         body = GetComponent<Rigidbody2D>();
-        col = GetComponent<Collider2D>();
-        col.enabled = false;
+        //col = GetComponent<Collider2D>();
+        //col.enabled = false;
+        //col = gameObject.GetComponents<BoxCollider2D>();
+
+        foreach (Collider2D c in GetComponents<Collider2D>())
+        {
+            c.enabled = false;
+        }
+
         body.isKinematic = true;
         body.velocity = Vector2.zero;
 
@@ -91,7 +103,7 @@ public class Health : MonoBehaviour {
             batMovement.enabled = false;
             batAttack.enabled = false;
         }
-        if (target.name == "Knight(Clone)")
+        if (target.name == "Knight(Clone)" || target.name == "Monster(Clone)")
         {
             knightMovement = GetComponent<KnightMovement>();
             knightAttack = GetComponent<KnightAttack>();

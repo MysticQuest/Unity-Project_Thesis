@@ -32,6 +32,11 @@ public class ItemEffects : MonoBehaviour
 
     public int rupies = 0;
 
+    public AudioSource effectplayer;
+    public AudioClip coin;
+    public AudioClip heartsound;
+    public AudioClip item;
+
     // Use this for initialization
     void Start()
     {
@@ -42,6 +47,8 @@ public class ItemEffects : MonoBehaviour
 
         barrel = GameObject.FindWithTag("barrel");
         barrelmass = barrel.GetComponent<Rigidbody2D>();
+
+        effectplayer = GetComponent<AudioSource>();
 
     }
 
@@ -67,6 +74,8 @@ public class ItemEffects : MonoBehaviour
         {
             if (other.gameObject == heart)
             {
+                effectplayer.clip = heartsound;
+                effectplayer.Play();
                 health.currentHealth += 25;
                 Destroy(other.gameObject);
             }
@@ -75,6 +84,8 @@ public class ItemEffects : MonoBehaviour
         {
             if (other.gameObject == rupie1)
             {
+                effectplayer.clip = coin;
+                effectplayer.Play();
                 rupies += 1;
                 Debug.Log("Rupies:" + rupies);
                 Destroy(other.gameObject);
@@ -84,6 +95,8 @@ public class ItemEffects : MonoBehaviour
         {
             if (other.gameObject == rupie2)
             {
+                effectplayer.clip = coin;
+                effectplayer.Play();
                 rupies += 5;
                 Debug.Log("Rupies:" + rupies);
                 Destroy(other.gameObject);
@@ -93,6 +106,8 @@ public class ItemEffects : MonoBehaviour
         {
             if (other.gameObject == rupie3)
             {
+                effectplayer.clip = coin;
+                effectplayer.Play();
                 rupies += 15;
                 Debug.Log("Rupies:" + rupies);
                 Destroy(other.gameObject);
@@ -100,16 +115,22 @@ public class ItemEffects : MonoBehaviour
         }
         if (other.gameObject == speedboots)
         {
+            effectplayer.clip = item;
+            effectplayer.Play();
             movement.speed = 2f;
             Destroy(other.gameObject);
         }
         if (other.gameObject == manual && gotmanual == false)
         {
+            effectplayer.clip = item;
+            effectplayer.Play();
             gotmanual = true;
             Destroy(other.gameObject);
         }
         if (other.gameObject == strengthgloves && gotgloves == false)
         {
+            effectplayer.clip = item;
+            effectplayer.Play();
             gotgloves = true;
             attack.damage += 3;
             barrelmass.mass = 0.1f;
@@ -117,11 +138,13 @@ public class ItemEffects : MonoBehaviour
         }
         if (other.gameObject == goldenplate && gotplate == false)
         {
+            effectplayer.clip = item;
+            effectplayer.Play();
             gotplate = true;
             health.regen = true;
             Destroy(other.gameObject);
         }
-        if (other.gameObject == stonesword && gotgloves == true)
+        /*if (other.gameObject == stonesword && gotgloves == true)
         {
             //change animations
             attack.damage += 10;
@@ -132,7 +155,7 @@ public class ItemEffects : MonoBehaviour
             //change animations
             attack.damage += 12;
             Destroy(other.gameObject);
-        }
+        }*/
     }
 
 }

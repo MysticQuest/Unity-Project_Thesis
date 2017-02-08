@@ -75,6 +75,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Audio\ExpEffect.cs" />
+    <Compile Include="Assets\Scripts\Audio\FireEffect.cs" />
+    <Compile Include="Assets\Scripts\Audio\PunchEffect.cs" />
+    <Compile Include="Assets\Scripts\Audio\SceneMusic.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\DayNight.cs" />
     <Compile Include="Assets\Scripts\Enemies\BatAttack.cs" />
@@ -102,6 +106,7 @@
     <Compile Include="Assets\Scripts\UpgradeSword.cs" />
     <Compile Include="Assets\Scripts\WarpAuto.cs" />
     <Compile Include="Assets\Scripts\WarpManual.cs" />
+    <Compile Include="Assets\Scripts\Weapons\attack.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />

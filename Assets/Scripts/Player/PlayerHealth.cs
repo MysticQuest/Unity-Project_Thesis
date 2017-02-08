@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerHealth : MonoBehaviour {
 
-    Animator anim;
+    
     public int startingHealth = 100;
     public float currentHealth;
     public bool isDead;
@@ -15,12 +15,19 @@ public class PlayerHealth : MonoBehaviour {
     public float damagedtimer;
     public float damagecd;
 
+    public AudioSource effectplayer;
+    public AudioClip splats;
+
+    public Animator anim;
+
 	// Use this for initialization
 	void Start ()
     {
         anim = GetComponent<Animator>();
         playerMovement = GetComponent<PlayerMovement>();
         currentHealth = startingHealth;
+
+        effectplayer = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -52,8 +59,17 @@ public class PlayerHealth : MonoBehaviour {
     public void Death()
     {
         isDead = true;
+        effectplayer.clip = splats;
+        effectplayer.volume = 0.5f;
+        effectplayer.Play();
+        anim.SetBool("IsDead", true);
+
         //   anim.SetTrigger("Dead");
         playerMovement.enabled = false;
-        Destroy(gameObject);
+        foreach (Collider2D c in GetComponents<Collider2D>())
+        {
+            c.enabled = false;
+        }
+        Destroy(gameObject,2);
     }
 }

@@ -14,6 +14,7 @@ public class Explode : MonoBehaviour
     public HouseHealth houseHealth;
     public int damage = 15;
 
+    public GameObject cols;
 
     // Use this for initialization
     void Start ()
@@ -22,6 +23,7 @@ public class Explode : MonoBehaviour
         house = GameObject.FindWithTag("HouseHitbox");
         playerHealth = player.GetComponent<PlayerHealth>();
         houseHealth = house.GetComponent<HouseHealth>();
+        cols = GameObject.FindWithTag("GenCollisions");
 
         StartCoroutine(Waitforit());
     }
@@ -42,7 +44,7 @@ public class Explode : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject == player)
+        if (other.gameObject == player) //fireball collides with almost everything || other.gameObject == cols)
         {
             playerHealth.Damaged(damage);
             genericexplosion = Instantiate(fireexplosion, transform.position, transform.rotation);

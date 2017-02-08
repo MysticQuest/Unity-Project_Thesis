@@ -25,10 +25,20 @@ public class PlayerAttack : MonoBehaviour {
 
     public Rigidbody2D body;
 
+    /*public Collider2D punchcol;
+    public Collider2D swordcol;
+    public Collider2D uswordcol;
+
+    public GameObject punch;
+    public GameObject sword;
+    public GameObject usword;*/
+
+
     void Start ()
     {
         player = GameObject.FindWithTag("Player");
         playerHealth = player.GetComponent<PlayerHealth>();
+
         //enemy = GameObject.FindWithTag("Enemy");
 
         body1 = GetComponent<Rigidbody2D>();
@@ -45,6 +55,14 @@ public class PlayerAttack : MonoBehaviour {
         //monster = GameObject.FindWithTag("Monster");
         //knight = GameObject.FindWithTag("Knight");
 
+        /*punch = GameObject.Find("PunchCol1");
+        sword = GameObject.Find("sword");
+        usword = GameObject.Find("sword2");
+
+        punchcol = punch.GetComponent<Collider2D>();
+        swordcol = sword.GetComponent<Collider2D>();
+        uswordcol = usword.GetComponent<Collider2D>();*/
+
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
         anim = GetComponent<Animator>();
@@ -59,66 +77,54 @@ public class PlayerAttack : MonoBehaviour {
             IsAttacking = false;
         }
 
-        timer += Time.deltaTime;
-
-        if (timer >= attackCooldown && IsAttacking && inRange && playerHealth.currentHealth >= 0)
-        {
-            Attack();
-        }
     }
 
-    void Attack()
-    {
-        timer = 0f;
-        if (health != null)
-        {
-            if (health.currentHealth > 0)
-            {
-                health.Damaged(damage);
-            }
-        }
-    }
 
-    void OnTriggerEnter2D(Collider2D other)
+/*    void OnTriggerEnter2D(Collider2D other)
     {
         //if (other.gameObject == bat || other.gameObject == monster || other.gameObject == knight)
-        foreach (GameObject enemy in enemies)
-        {
-            if (enemy == other.gameObject)
+
+//        if (other.gameObject.name == "PunchCol1")
+//        {
+            foreach (GameObject enemy in enemies)
             {
-                health = enemy.GetComponent<Health>();
-                if (IsAttacking == true)
+                if (other.gameObject == enemy.gameObject)
                 {
-                    inRange = true;
-
-                    //problematic knockback attempts
-
-                    Vector3 directionVector = other.transform.position - transform.position;
-                    Rigidbody2D body = other.GetComponent<Rigidbody2D>();
-                    if (body != null)
+                    health = enemy.GetComponent<Health>();
+                    if (IsAttacking == true)
                     {
-                        float forceMagnitude = 0.5f;
-                        ForceMode2D mode = ForceMode2D.Impulse;
-                        body.AddForce(directionVector.normalized * forceMagnitude, mode);
+                        inRange = true;
+                        Debug.Log("Object " + other.name + " has hit object " + other.name);
+
+                        //problematic knockback attempts
+
+                        /*Vector3 directionVector = other.transform.position - transform.position;
+                        Rigidbody2D body = other.GetComponent<Rigidbody2D>();
+                        if (body != null)
+                        {
+                            float forceMagnitude = 0.5f;
+                            ForceMode2D mode = ForceMode2D.Impulse;
+                            body.AddForce(directionVector.normalized * forceMagnitude, mode);
+                        }*/
+                        //Vector3 direction = (other.transform.position - transform.position).normalized;
+                        //body = other.GetComponent<Rigidbody2D>();
+                        //body.AddForce(direction * 10);
+                        /*Vector2 directionVector = other.gameObject.transform.position - this.transform.position;
+                        Rigidbody2D body = other.gameObject.GetComponent<Rigidbody2D>();
+                        body.velocity = directionVector.normalized;
                     }
-                    //Vector3 direction = (other.transform.position - transform.position).normalized;
-                    //body = other.GetComponent<Rigidbody2D>();
-                    //body.AddForce(direction * 10);
-                    /*Vector2 directionVector = other.gameObject.transform.position - this.transform.position;
-                    Rigidbody2D body = other.gameObject.GetComponent<Rigidbody2D>();
-                    body.velocity = directionVector.normalized;*/
-                }
-                else
-                {
-                    inRange = false;
-                }
+                    else
+                    {
+                        inRange = false;
+                    }
 
 
+                }
             }
-        }
-    }
+//        }
+     }
 
-                    void OnTriggerExit2D(Collider2D other)
+                    /*void OnTriggerExit2D(Collider2D other)
                     {
                       //if (other.gameObject == bat || other.gameObject == monster || other.gameObject == knight)
                       if (other.gameObject == enemy)
@@ -128,7 +134,7 @@ public class PlayerAttack : MonoBehaviour {
                                 inRange = false;
                             }
                         }
-                    }
+                    }*/
 
 
 
