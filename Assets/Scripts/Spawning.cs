@@ -99,7 +99,7 @@ public class Spawning : MonoBehaviour
         if (timer2 >= bfreq)
             SpawnBat();
 
-        if (timer3 >= kfreq && daycount.day > 2 && globaltimer.timer <105f)
+        if (timer3 >= kfreq && daycount.day > 2)
             SpawnKnight();
 
         if (daycount.day > 2 && globaltimer.timer > 200f && bossup == false)

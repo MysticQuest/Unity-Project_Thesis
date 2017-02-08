@@ -12,6 +12,8 @@ public class SwordInStone : MonoBehaviour {
 
     public AudioSource effectplayer;
 
+    public PlayerMovement pmove;
+
     // Use this for initialization
     void Start ()
     {
@@ -20,6 +22,8 @@ public class SwordInStone : MonoBehaviour {
         items = player.GetComponent<ItemEffects>();
         attack = player.GetComponent<PlayerAttack>();
         effectplayer = GetComponent<AudioSource>();
+
+        pmove = player.GetComponent<PlayerMovement>();
     }
 	
 	// Update is called once per frame
@@ -38,10 +42,20 @@ public class SwordInStone : MonoBehaviour {
                     effectplayer.Play();
                     anim.SetBool("HasSword", true);
                     gotstone = true;
+                    pmove.enabled = false;
+                    anim.enabled = false;
                     attack.damage += 10;
-                    Destroy(gameObject);
+                    //anim.Play("Idle.idle_down");
+                    Invoke("Unfreeze",4);
+                    Destroy(gameObject,4);
                 }
             }
         }
+    }
+
+    void Unfreeze()
+    {
+        pmove.enabled = true;
+        anim.enabled = true;
     }
 }

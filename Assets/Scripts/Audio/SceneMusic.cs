@@ -19,6 +19,8 @@ public class SceneMusic : MonoBehaviour
     public GameObject canvas;
     public GameObject player;
 
+    public bool bossclip = false;
+
     void Start()
     {
         canvas = GameObject.Find("Canvas");
@@ -31,20 +33,24 @@ public class SceneMusic : MonoBehaviour
     {
         time = canvas.GetComponent<DayNight>();
         timer = time.timer;
+        if (time.day > 2 && timer > 150f)
+        {
+            bossclip = true;
+        }
 
-        if (timer > 105f && musicplayer.clip != night)
+        if (timer > 105f && musicplayer.clip != night && player != null && bossclip == false)
         {
             Invoke("Night", 4);
             musicplayer.volume -= Time.deltaTime * 0.017f;            
         }
-        else if (musicplayer.clip != day && timer < 100f)
+        else if (musicplayer.clip != day && timer < 100f && player !=null)
         {
             Invoke("Day", 4);
             musicplayer.volume -= Time.deltaTime * 0.017f;
         }
-        else if (musicplayer.clip != boss && timer > 175f && time.day > 2)
+        else if (musicplayer.clip != boss && timer > 150f && time.day > 2 && player != null)
         {
-            Invoke("Boss", 15);
+            Invoke("Boss", 10);
             musicplayer.volume -= Time.deltaTime * 0.017f;
         }
         else if (musicplayer.clip != gameover && player == null)
