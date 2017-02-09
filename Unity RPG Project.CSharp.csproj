@@ -96,6 +96,7 @@
     <Compile Include="Assets\Scripts\Misc\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Misc\DayNight.cs" />
     <Compile Include="Assets\Scripts\Misc\Interactables.cs" />
+    <Compile Include="Assets\Scripts\Misc\PauseGame.cs" />
     <Compile Include="Assets\Scripts\Misc\Spawning.cs" />
     <Compile Include="Assets\Scripts\Misc\SwordInStone.cs" />
     <Compile Include="Assets\Scripts\Misc\UpgradeSword.cs" />
