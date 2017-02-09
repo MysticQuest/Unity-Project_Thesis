@@ -24,6 +24,8 @@ public class BossFire : MonoBehaviour
     public float firetimer;
     private Transform bosspos;
 
+    public AudioSource effectplayer;
+
     // Use this for initialization
     void Start()
     {
@@ -36,6 +38,8 @@ public class BossFire : MonoBehaviour
 
         bosspos = boss.GetComponent<Transform>();
         bossC = boss.GetComponent<Boss>();
+
+        effectplayer = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -72,6 +76,8 @@ public class BossFire : MonoBehaviour
             body = genericfireball.GetComponent<Rigidbody2D>();
 
             body.velocity = (target.position - location.position).normalized * speed;
+
+            effectplayer.Play();
 
             //explosion attempt
             //StartCoroutine(Explosion());

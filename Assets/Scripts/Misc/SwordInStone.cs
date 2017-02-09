@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SwordInStone : MonoBehaviour {
 
@@ -14,6 +15,9 @@ public class SwordInStone : MonoBehaviour {
 
     public PlayerMovement pmove;
 
+    public GameObject mainText;
+    public Text text;
+
     // Use this for initialization
     void Start ()
     {
@@ -24,6 +28,9 @@ public class SwordInStone : MonoBehaviour {
         effectplayer = GetComponent<AudioSource>();
 
         pmove = player.GetComponent<PlayerMovement>();
+
+        mainText = GameObject.FindWithTag("text");
+        text = mainText.GetComponent<Text>();
     }
 	
 	// Update is called once per frame
@@ -35,9 +42,9 @@ public class SwordInStone : MonoBehaviour {
     {
         if (other.gameObject == player)
         {
-            if (items.gotgloves == true)
+            if (Input.GetKeyDown(KeyCode.E) && gotstone == false)
             {
-                if (Input.GetKeyDown(KeyCode.E) && gotstone == false)
+                if (items.gotgloves == true)
                 {
                     effectplayer.Play();
                     anim.SetBool("HasSword", true);
@@ -48,6 +55,10 @@ public class SwordInStone : MonoBehaviour {
                     //anim.Play("Idle.idle_down");
                     Invoke("Unfreeze",4);
                     Destroy(gameObject,4);
+                }
+                else
+                {
+                    text.text = "I am not strong enough to pull it out of the stone...";
                 }
             }
         }

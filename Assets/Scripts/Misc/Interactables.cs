@@ -15,6 +15,7 @@ public class Interactables : MonoBehaviour
 
     public AudioSource effectplayer;
 
+    public GameObject mainText;
     public Text text;
 
     // Use this for initialization
@@ -27,6 +28,9 @@ public class Interactables : MonoBehaviour
 
         barrel = GameObject.FindWithTag("barrel");
         barrelmass = barrel.GetComponent<Rigidbody2D>();
+
+        mainText = GameObject.FindWithTag("text");
+        text = mainText.GetComponent<Text>();
     }
 
     // Update is called once per frame
@@ -39,14 +43,18 @@ public class Interactables : MonoBehaviour
     {
         if (other.gameObject == player)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E) && items.gotgloves == false)
             {
-                if (items.gotkey == true && items.gotgloves == false)
+                if (items.gotkey == true)
                 {
                     effectplayer.Play();
                     attack.damage += 3;
                     barrelmass.mass = 0.5f;
                     items.gotgloves = true;
+                }
+                else
+                {
+                    text.text = "It's locked...";
                 }
             }
         }

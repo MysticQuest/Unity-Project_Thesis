@@ -14,16 +14,16 @@ public class HouseHealth : MonoBehaviour {
 
 
     // Use this for initialization
-    void Start () {
+    void Start() {
         explosion = GameObject.Find("explosion");
         currentHealth = maxHealth;
         anim = explosion.GetComponent<Animator>();
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    // Update is called once per frame
+    void Update() {
+
+    }
 
     public void Damaged(int damage)
     {
@@ -40,5 +40,11 @@ public class HouseHealth : MonoBehaviour {
         isDead = true;
         anim.SetTrigger("Destroyed");
         Destroy(gameObject);
+        Invoke("GameoverH", 3);
+    }
+
+    public void GameoverH()
+    {
+        Time.timeScale = 0;
     }
 }

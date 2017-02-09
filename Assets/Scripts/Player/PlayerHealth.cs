@@ -68,6 +68,12 @@ public class PlayerHealth : MonoBehaviour {
         {
             c.enabled = false;
         }
+        Invoke("GameoverP", 3);
         Destroy(gameObject,2);
+    }
+
+    public void GameoverP()
+    {
+        Time.timeScale = 0;
     }
 }

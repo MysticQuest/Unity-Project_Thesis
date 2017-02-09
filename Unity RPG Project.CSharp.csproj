@@ -107,6 +107,8 @@
     <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Text\Barrel.cs" />
+    <Compile Include="Assets\Scripts\Text\Sign.cs" />
     <Compile Include="Assets\Scripts\Text\TextInteractions.cs" />
     <Compile Include="Assets\Scripts\Text\TextInteractions2.cs" />
     <Compile Include="Assets\Scripts\Text\TextInteractions3.cs" />

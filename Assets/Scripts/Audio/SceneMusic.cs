@@ -33,7 +33,7 @@ public class SceneMusic : MonoBehaviour
     {
         time = canvas.GetComponent<DayNight>();
         timer = time.timer;
-        if (time.day > 2 && timer > 150f)
+        if (time.day > 2 && timer > 160f)
         {
             bossclip = true;
         }
@@ -48,7 +48,7 @@ public class SceneMusic : MonoBehaviour
             Invoke("Day", 4);
             musicplayer.volume -= Time.deltaTime * 0.017f;
         }
-        else if (musicplayer.clip != boss && timer > 150f && time.day > 2 && player != null)
+        else if (musicplayer.clip != boss && timer > 160f && time.day > 2 && player != null)
         {
             Invoke("Boss", 10);
             musicplayer.volume -= Time.deltaTime * 0.017f;

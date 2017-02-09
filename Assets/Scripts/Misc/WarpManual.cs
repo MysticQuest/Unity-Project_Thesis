@@ -9,12 +9,16 @@ public class WarpManual : MonoBehaviour
     public GameObject player;
     public GameObject keychest;
 
+    public GameObject mainText;
     public Text text;
 
     void Start()
     {
         player = GameObject.FindWithTag("Player");
         items = player.GetComponent<ItemEffects>();
+
+        mainText = GameObject.FindWithTag("text");
+        text = mainText.GetComponent<Text>();
     }
 
     void OnTriggerStay2D(Collider2D other)
@@ -27,7 +31,10 @@ public class WarpManual : MonoBehaviour
                 {
                     other.transform.position = target.position;
                 }
-                else Debug.Log("it's locked");
+                else
+                {
+                    text.text = "It's locked. I think I saw a bat running off with my keys earlier...";
+                }
             }
         }
     }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UpgradeSword : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class UpgradeSword : MonoBehaviour
 
     public AudioSource effectplayer;
 
+    public GameObject mainText;
+    public Text text;
+
     // Use this for initialization
     void Start()
     {
@@ -21,6 +25,9 @@ public class UpgradeSword : MonoBehaviour
         items = player.GetComponent<ItemEffects>();
         attack = player.GetComponent<PlayerAttack>();
         effectplayer = GetComponent<AudioSource>();
+
+        mainText = GameObject.FindWithTag("text");
+        text = mainText.GetComponent<Text>();
     }
 
     // Update is called once per frame
@@ -33,14 +40,18 @@ public class UpgradeSword : MonoBehaviour
     {
         if (other.gameObject == player)
         {
-            if (items.gotmanual == true)
+            if (Input.GetKeyDown(KeyCode.E) && upgraded == false)
             {
-                if (Input.GetKeyDown(KeyCode.E) && upgraded == false)
+                if (items.gotmanual == true)
                 {
                     effectplayer.Play();
                     anim.SetBool("Upgraded", true);
                     upgraded = true;
                     attack.damage += 17;
+                }
+                else
+                {
+                    text.text = "I don't know how to use this...";
                 }
             }
         }

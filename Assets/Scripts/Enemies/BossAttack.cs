@@ -19,6 +19,8 @@ public class BossAttack : MonoBehaviour
     public PlayerHealth playerHealth;
     public HouseHealth houseHealth;
 
+    public AudioSource effectplayer;
+
 	// Use this for initialization
 	void Start ()
     {
@@ -30,6 +32,8 @@ public class BossAttack : MonoBehaviour
         houseHealth = house.GetComponent<HouseHealth>();
 
         animlight = GetComponent<Animator>();
+
+        effectplayer = GetComponent<AudioSource>();
     }
 	
 	// Update is called once per frame
@@ -42,6 +46,7 @@ public class BossAttack : MonoBehaviour
         if ( stuff.timerCooldown > 4 && anim.GetBool("IsAttacking") == true)
         {
             animlight.Play("bosslight");
+            effectplayer.Play();
             //animtimer = 0;
         }
     }

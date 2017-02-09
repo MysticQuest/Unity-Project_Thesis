@@ -77,11 +77,11 @@ public class ItemEffects : MonoBehaviour
     {
         foreach (GameObject heart in hearts)
         {
-            if (other.gameObject == heart)
+            if (other.gameObject == heart && health.currentHealth < health.maxHealth)
             {
                 effectplayer.clip = heartsound;
                 effectplayer.Play();
-                health.currentHealth += 25;
+                health.currentHealth += 20;
                 Destroy(other.gameObject);
             }
         }
