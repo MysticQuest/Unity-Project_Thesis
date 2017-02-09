@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HouseHealth : MonoBehaviour {
 
-    public int startingHealth = 100;
+    public int maxHealth = 100;
     public int currentHealth;
     public bool isDead;
     public bool isDamaged;
@@ -16,7 +16,7 @@ public class HouseHealth : MonoBehaviour {
     // Use this for initialization
     void Start () {
         explosion = GameObject.Find("explosion");
-        currentHealth = startingHealth;
+        currentHealth = maxHealth;
         anim = explosion.GetComponent<Animator>();
     }
 	

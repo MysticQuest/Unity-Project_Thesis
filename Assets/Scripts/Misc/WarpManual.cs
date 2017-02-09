@@ -1,18 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class WarpManual : MonoBehaviour
 {
     public Transform target;
-    public Interactables inter;
+    public ItemEffects items;
     public GameObject player;
     public GameObject keychest;
 
+    public Text text;
+
     void Start()
     {
-        keychest = GameObject.FindWithTag("key");
         player = GameObject.FindWithTag("Player");
-        inter = keychest.GetComponent<Interactables>();
+        items = player.GetComponent<ItemEffects>();
     }
 
     void OnTriggerStay2D(Collider2D other)
@@ -21,7 +23,7 @@ public class WarpManual : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                if (inter.gotkey == true)
+                if (items.gotkey == true)
                 {
                     other.transform.position = target.position;
                 }

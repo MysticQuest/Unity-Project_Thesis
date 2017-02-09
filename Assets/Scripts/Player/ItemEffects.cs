@@ -20,14 +20,18 @@ public class ItemEffects : MonoBehaviour
 
     public GameObject speedboots;
     public GameObject manual;
-    public GameObject strengthgloves;
+    //public GameObject strengthgloves;
     public GameObject goldenplate;
     public GameObject stonesword;
     public GameObject firesword;
+    public GameObject key;
 
+    public bool gotkey = false;
+    public bool gotboots = false;
     public bool gotmanual = false;
     public bool gotgloves = false;
     public bool gotplate = false;
+
     public bool gotstone = false;
 
     public int rupies = 0;
@@ -36,6 +40,7 @@ public class ItemEffects : MonoBehaviour
     public AudioClip coin;
     public AudioClip heartsound;
     public AudioClip item;
+    public AudioClip keys;
 
     // Use this for initialization
     void Start()
@@ -45,8 +50,8 @@ public class ItemEffects : MonoBehaviour
         movement = player.GetComponent<PlayerMovement>();
         attack = player.GetComponent<PlayerAttack>();
 
-        barrel = GameObject.FindWithTag("barrel");
-        barrelmass = barrel.GetComponent<Rigidbody2D>();
+        //barrel = GameObject.FindWithTag("barrel");
+        //barrelmass = barrel.GetComponent<Rigidbody2D>();
 
         effectplayer = GetComponent<AudioSource>();
 
@@ -62,7 +67,7 @@ public class ItemEffects : MonoBehaviour
 
         speedboots = GameObject.FindWithTag("speedboots");
         manual = GameObject.FindWithTag("manual");
-        strengthgloves = GameObject.FindWithTag("strengthgloves");
+        key = GameObject.FindWithTag("key");
         goldenplate = GameObject.FindWithTag("goldenplate");
         stonesword = GameObject.FindWithTag("stonesword");
         firesword = GameObject.FindWithTag("firesword");
@@ -118,6 +123,7 @@ public class ItemEffects : MonoBehaviour
             effectplayer.clip = item;
             effectplayer.Play();
             movement.speed = 2f;
+            gotboots = true;
             Destroy(other.gameObject);
         }
         if (other.gameObject == manual && gotmanual == false)
@@ -127,13 +133,11 @@ public class ItemEffects : MonoBehaviour
             gotmanual = true;
             Destroy(other.gameObject);
         }
-        if (other.gameObject == strengthgloves && gotgloves == false)
+        if (other.gameObject == key && gotkey == false)
         {
-            effectplayer.clip = item;
+            effectplayer.clip = keys;
             effectplayer.Play();
-            gotgloves = true;
-            attack.damage += 3;
-            barrelmass.mass = 0.1f;
+            gotkey = true;            
             Destroy(other.gameObject);
         }
         if (other.gameObject == goldenplate && gotplate == false)

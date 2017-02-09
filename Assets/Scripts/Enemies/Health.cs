@@ -132,7 +132,7 @@ public class Health : MonoBehaviour {
             {
                 genericDrop2 = Instantiate(itemDrop2, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 85 && items.gotgloves == false)
+            else if (randomDrop >= 85 && items.gotkey == false)
             {
                 genericDrop3 = Instantiate(itemDrop3, transform.position, Quaternion.identity) as GameObject;
             }

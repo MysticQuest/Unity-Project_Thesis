@@ -88,7 +88,11 @@
     <Compile Include="Assets\Scripts\Enemies\Health.cs" />
     <Compile Include="Assets\Scripts\Enemies\KnightAttack.cs" />
     <Compile Include="Assets\Scripts\Enemies\KnightMovement.cs" />
-    <Compile Include="Assets\Scripts\Menu\UIFunctions.cs" />
+    <Compile Include="Assets\Scripts\GUI\APCounter.cs" />
+    <Compile Include="Assets\Scripts\GUI\ItemPanel.cs" />
+    <Compile Include="Assets\Scripts\GUI\RupieCounter.cs" />
+    <Compile Include="Assets\Scripts\GUI\UICalculations.cs" />
+    <Compile Include="Assets\Scripts\GUI\UIFunctions.cs" />
     <Compile Include="Assets\Scripts\Misc\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Misc\DayNight.cs" />
     <Compile Include="Assets\Scripts\Misc\Interactables.cs" />

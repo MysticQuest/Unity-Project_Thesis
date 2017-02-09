@@ -3,13 +3,11 @@ using System.Collections;
 
 public class PlayerHealth : MonoBehaviour {
 
-    
-    public int startingHealth = 100;
-    public float currentHealth;
     public bool isDead;
     public bool isDamaged;
     public bool regen = false;
-    public float maxHealth = 100;
+    public float maxHealth = 100f;
+    public float currentHealth = 100f;
 
     public PlayerMovement playerMovement;
     public float damagedtimer;
@@ -25,7 +23,7 @@ public class PlayerHealth : MonoBehaviour {
     {
         anim = GetComponent<Animator>();
         playerMovement = GetComponent<PlayerMovement>();
-        currentHealth = startingHealth;
+        currentHealth = maxHealth;
 
         effectplayer = GetComponent<AudioSource>();
 	}

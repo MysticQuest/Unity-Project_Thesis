@@ -14,8 +14,4 @@ public class UIFunctions : MonoBehaviour {
     {
         Application.Quit();
     }
-    public void Help()
-    {
-
-    }
 }
