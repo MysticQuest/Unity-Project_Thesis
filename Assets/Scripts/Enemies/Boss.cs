@@ -58,6 +58,12 @@ public class Boss : MonoBehaviour {
     public float firetimer;
     //public GameObject genericfireball;
 
+    //public bool bossdead;
+    public Health health;
+    public GameObject music;
+    public AudioSource musicplayer;
+    public AudioSource bossplayer;
+
     // Use this for initialization
     void Start()
     {
@@ -71,7 +77,8 @@ public class Boss : MonoBehaviour {
         knightpos = GetComponent<Transform>();
         playerpos = player.GetComponent<Transform>();
         housepos = house.GetComponent<Transform>();
-        
+
+        health = GetComponent<Health>();
 
         waypoints = GameObject.FindGameObjectsWithTag("Waypoint").ToList();
         finalwaypoint = GameObject.Find("C");
@@ -82,6 +89,10 @@ public class Boss : MonoBehaviour {
         //animlight = bosslight.GetComponent<Animator>();
 
         collisions = GameObject.FindGameObjectsWithTag("GenCollisions");
+
+        music = GameObject.Find("MusicPlayer");
+        musicplayer = music.GetComponent<AudioSource>();
+        bossplayer = GetComponent<AudioSource>();
     }
 
 
@@ -91,6 +102,15 @@ public class Boss : MonoBehaviour {
         animtimer += Time.deltaTime;
         timerCooldown += Time.deltaTime;
         firetimer += Time.deltaTime;
+
+        if (health.currentHealth <= 0)
+        {
+            //bossdead = true;
+            musicplayer.mute = true;
+            bossplayer.Play();
+            Time.timeScale = 0;
+
+        }
 
         //smooth animations
         

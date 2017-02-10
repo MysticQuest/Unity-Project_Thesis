@@ -10,7 +10,7 @@ public class CameraFollow : MonoBehaviour {
 	void Start () {
 
         Cursor.visible = false;
-        Application.runInBackground = true;
+        Application.runInBackground = false;
         cam1 = GetComponent<Camera>();
 
 	}

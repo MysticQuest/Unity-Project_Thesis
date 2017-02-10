@@ -52,7 +52,6 @@ public class Health : MonoBehaviour {
         items = player.GetComponent<ItemEffects>();
 
         effectplayer = GetComponent<AudioSource>();
-
     }
 
     // Update is called once per frame
@@ -110,7 +109,7 @@ public class Health : MonoBehaviour {
             knightAttack.enabled = false;
             knightMovement.enabled = false;
         }
-
+    
         Destroy(gameObject, 2);
         isDead = true;
 
@@ -132,7 +131,7 @@ public class Health : MonoBehaviour {
             {
                 genericDrop2 = Instantiate(itemDrop2, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 85 && items.gotkey == false)
+            else if (randomDrop >= 86 && items.gotkey == false && items.gotkey2 == false)
             {
                 genericDrop3 = Instantiate(itemDrop3, transform.position, Quaternion.identity) as GameObject;
             }
@@ -147,7 +146,7 @@ public class Health : MonoBehaviour {
             {
                 genericDrop2 = Instantiate(itemDrop2, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 90 && items.gotmanual == false)
+            else if (randomDrop >= 90 && items.gotmanual == false && items.gotmanualx == false)
             {
                 genericDrop3 = Instantiate(itemDrop3, transform.position, Quaternion.identity) as GameObject;
             }

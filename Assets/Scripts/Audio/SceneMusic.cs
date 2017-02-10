@@ -21,12 +21,16 @@ public class SceneMusic : MonoBehaviour
 
     public bool bossclip = false;
 
+    public Health health;
+
     void Start()
     {
         canvas = GameObject.Find("Canvas");
         musicplayer = GetComponent<AudioSource>();
         Day();
         player = GameObject.FindWithTag("Player");
+
+        health = GetComponent<Health>();
     }
 
     void Update ()

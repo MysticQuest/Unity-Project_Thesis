@@ -33,7 +33,7 @@ public class BossFire : MonoBehaviour
         source = GetComponent<Transform>();
         location = source.transform;
 
-        boss = GameObject.Find("Boss");
+        boss = GameObject.Find("Boss(Clone)");
         bossanim = boss.GetComponent<Animator>();
 
         bosspos = boss.GetComponent<Transform>();

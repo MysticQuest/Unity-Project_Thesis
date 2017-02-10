@@ -27,10 +27,15 @@ public class ItemEffects : MonoBehaviour
     public GameObject key;
 
     public bool gotkey = false;
+    public bool gotkey2 = false;
+
     public bool gotboots = false;
     public bool gotmanual = false;
+    public bool gotmanualx = false;
     public bool gotgloves = false;
     public bool gotplate = false;
+    public bool gotcape = false;
+    public bool gotcapetrue = false;
 
     public bool gotstone = false;
 
@@ -41,6 +46,9 @@ public class ItemEffects : MonoBehaviour
     public AudioClip heartsound;
     public AudioClip item;
     public AudioClip keys;
+    public AudioClip upgrade;
+
+    public Collider2D col;
 
     // Use this for initialization
     void Start()
@@ -55,6 +63,7 @@ public class ItemEffects : MonoBehaviour
 
         effectplayer = GetComponent<AudioSource>();
 
+        col = GetComponent<Collider2D>();
     }
 
     // Update is called once per frame
@@ -71,13 +80,23 @@ public class ItemEffects : MonoBehaviour
         goldenplate = GameObject.FindWithTag("goldenplate");
         stonesword = GameObject.FindWithTag("stonesword");
         firesword = GameObject.FindWithTag("firesword");
+
+        if (gotcape == true && gotcapetrue == false)
+        {
+            gotcapetrue = true;
+            effectplayer.clip = upgrade;
+            effectplayer.Play();
+            attack.damage += 5;
+            health.maxHealth += 50;
+            col.enabled = false;
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         foreach (GameObject heart in hearts)
         {
-            if (other.gameObject == heart && health.currentHealth < health.maxHealth)
+            if (other.gameObject == heart && health.currentHealth < health.maxHealth -3)
             {
                 effectplayer.clip = heartsound;
                 effectplayer.Play();
@@ -126,14 +145,14 @@ public class ItemEffects : MonoBehaviour
             gotboots = true;
             Destroy(other.gameObject);
         }
-        if (other.gameObject == manual && gotmanual == false)
+        if (other.gameObject == manual && gotmanual == false && gotmanualx == false)
         {
             effectplayer.clip = item;
             effectplayer.Play();
             gotmanual = true;
             Destroy(other.gameObject);
         }
-        if (other.gameObject == key && gotkey == false)
+        if (other.gameObject == key && gotkey == false && gotkey2 == false)
         {
             effectplayer.clip = keys;
             effectplayer.Play();

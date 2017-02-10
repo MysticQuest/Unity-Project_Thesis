@@ -9,12 +9,14 @@ public class ItemPanel : MonoBehaviour
     public GameObject icon3;
     public GameObject icon4;
     public GameObject icon5;
+    public GameObject icon6;
 
     public bool gotkey;
     public bool gotgloves;
     public bool gotboots;
     public bool gotplate;
     public bool gotmanual;
+    public bool gotcape;
 
     public ItemEffects items;
     public GameObject player;
@@ -31,12 +33,14 @@ public class ItemPanel : MonoBehaviour
         icon3 = GameObject.Find("ItemPanel/icon3");
         icon4 = GameObject.Find("ItemPanel/icon4");
         icon5 = GameObject.Find("ItemPanel/icon5");
+        icon6 = GameObject.Find("ItemPanel/icon6");
 
         icon1.SetActive(false);
         icon2.SetActive(false);
         icon3.SetActive(false);
         icon4.SetActive(false);
         icon5.SetActive(false);
+        icon6.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -47,6 +51,7 @@ public class ItemPanel : MonoBehaviour
         gotboots = items.gotboots;
         gotplate = items.gotplate;
         gotmanual = items.gotmanual;
+        gotcape = items.gotcape;
 
         if (gotkey == true)
         {
@@ -67,6 +72,10 @@ public class ItemPanel : MonoBehaviour
         if (gotplate == true)
         {
             icon5.SetActive(true);
+        }
+        if (gotcape == true)
+        {
+            icon6.SetActive(true);
         }
 	} 
 }

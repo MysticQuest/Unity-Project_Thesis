@@ -10,6 +10,9 @@ public class Sign : MonoBehaviour
 
     public GameObject player;
 
+    public GameObject frame;
+    public Image image;
+
 	// Use this for initialization
 	void Start ()
     {
@@ -17,6 +20,8 @@ public class Sign : MonoBehaviour
         text = mainText.GetComponent<Text>();
 
         player = GameObject.FindWithTag("Player");
+        frame = GameObject.Find("TextFrame");
+        image = frame.GetComponent<Image>();
 	}
 	
 	// Update is called once per frame
@@ -29,8 +34,18 @@ public class Sign : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
+                text.canvasRenderer.SetAlpha(255f);
+                image.canvasRenderer.SetAlpha(255f);
+                Invoke("Fade", 2);
+
                 text.text = "FUCK OFF";
             }
         }
+    }
+
+    void Fade()
+    {
+        text.CrossFadeAlpha(1f, 1, false);
+        image.CrossFadeAlpha(1f, 1, false);
     }
 }

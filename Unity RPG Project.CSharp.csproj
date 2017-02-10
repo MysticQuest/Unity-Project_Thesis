@@ -107,12 +107,14 @@
     <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\Shady.cs" />
     <Compile Include="Assets\Scripts\Text\Barrel.cs" />
     <Compile Include="Assets\Scripts\Text\Sign.cs" />
     <Compile Include="Assets\Scripts\Text\TextInteractions.cs" />
     <Compile Include="Assets\Scripts\Text\TextInteractions2.cs" />
     <Compile Include="Assets\Scripts\Text\TextInteractions3.cs" />
     <Compile Include="Assets\Scripts\Text\TextInteractions4.cs" />
+    <Compile Include="Assets\Scripts\Text\Useless.cs" />
     <Compile Include="Assets\Scripts\Weapons\attack.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />

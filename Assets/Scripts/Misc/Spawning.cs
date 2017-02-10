@@ -82,8 +82,16 @@ public class Spawning : MonoBehaviour
     void Update()
     {
         bfreq = Random.Range(5, 7);
-        mfreq = Random.Range(6, 9);
         kfreq = Random.Range(15, 20);
+        if (daycount.day < 2)
+        {
+            mfreq = Random.Range(10, 16);
+        }
+        else
+        {
+            mfreq = Random.Range(6, 9);
+        }
+
 
         timer1 += Time.deltaTime;
         timer2 += Time.deltaTime;

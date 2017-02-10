@@ -26,7 +26,7 @@ public class BossAttack : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player");
         house = GameObject.FindWithTag("HouseHitbox");
-        boss = GameObject.Find("Boss");
+        boss = GameObject.Find("Boss(Clone)");
 
         playerHealth = player.GetComponent<PlayerHealth>();
         houseHealth = house.GetComponent<HouseHealth>();

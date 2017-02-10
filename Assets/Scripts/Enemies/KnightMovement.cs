@@ -145,10 +145,10 @@ public class KnightMovement : MonoBehaviour {
 
             if (gameObject.name == "Knight(Clone)")
             {
-                transform.position = Vector2.MoveTowards(transform.position, playerpos.position - playerpos.up * 0.01f, speed * Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, playerpos.position - playerpos.up * 0.2f, speed * Time.deltaTime);
             }
 
-            else
+            else if (gameObject.name == "Monster(Clone)")
             {
                 transform.position = Vector2.MoveTowards(transform.position, playerpos.position + playerpos.up * 0.3f, speed * Time.deltaTime);
             }

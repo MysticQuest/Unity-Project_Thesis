@@ -17,6 +17,8 @@ public class Interactables : MonoBehaviour
 
     public GameObject mainText;
     public Text text;
+    public GameObject frame;
+    public Image image;
 
     // Use this for initialization
     void Start()
@@ -31,6 +33,8 @@ public class Interactables : MonoBehaviour
 
         mainText = GameObject.FindWithTag("text");
         text = mainText.GetComponent<Text>();
+        frame = GameObject.Find("TextFrame");
+        image = frame.GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -45,18 +49,41 @@ public class Interactables : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E) && items.gotgloves == false)
             {
-                if (items.gotkey == true)
+                if (items.gotkey2 == true)
                 {
                     effectplayer.Play();
                     attack.damage += 3;
                     barrelmass.mass = 0.5f;
                     items.gotgloves = true;
+
+                    text.canvasRenderer.SetAlpha(255f);
+                    image.canvasRenderer.SetAlpha(255f);
+                    Invoke("Fade", 2);
+
+                    text.text = "Found Gauntlets of Strength!";
                 }
-                else
+                if (items.gotkey == false && items.gotkey2 == false)
                 {
+                    text.canvasRenderer.SetAlpha(255f);
+                    image.canvasRenderer.SetAlpha(255f);
+                    Invoke("Fade", 2);
+
                     text.text = "It's locked...";
+                }
+                if (items.gotkey == true)
+                {
+                    text.canvasRenderer.SetAlpha(255f);
+                    image.canvasRenderer.SetAlpha(255f);
+                    Invoke("Fade", 2);
+
+                    text.text = "If I could modify my house keys somehow...";
                 }
             }
         }
+    }
+    void Fade()
+    {
+        text.CrossFadeAlpha(1f, 1, false);
+        image.CrossFadeAlpha(1f, 1, false);
     }
 }

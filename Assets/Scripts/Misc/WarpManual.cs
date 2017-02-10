@@ -12,6 +12,9 @@ public class WarpManual : MonoBehaviour
     public GameObject mainText;
     public Text text;
 
+    public GameObject frame;
+    public Image image;
+
     void Start()
     {
         player = GameObject.FindWithTag("Player");
@@ -19,6 +22,8 @@ public class WarpManual : MonoBehaviour
 
         mainText = GameObject.FindWithTag("text");
         text = mainText.GetComponent<Text>();
+        frame = GameObject.Find("TextFrame");
+        image = frame.GetComponent<Image>();
     }
 
     void OnTriggerStay2D(Collider2D other)
@@ -31,11 +36,29 @@ public class WarpManual : MonoBehaviour
                 {
                     other.transform.position = target.position;
                 }
-                else
+                if (items.gotkey == false && items.gotkey2 == false)
                 {
+                    text.canvasRenderer.SetAlpha(255f);
+                    image.canvasRenderer.SetAlpha(255f);
+                    Invoke("Fade", 2);
+
                     text.text = "It's locked. I think I saw a bat running off with my keys earlier...";
                 }
+                if (items.gotkey == false && items.gotkey2 == true)
+                {
+                    text.canvasRenderer.SetAlpha(255f);
+                    image.canvasRenderer.SetAlpha(255f);
+                    Invoke("Fade", 2);
+
+                    text.text = "They key doesn't fit the lock anymore...";
+
+                } 
             }
         }
+    }
+    void Fade()
+    {
+        text.CrossFadeAlpha(1f, 1, false);
+        image.CrossFadeAlpha(1f, 1, false);
     }
 }
