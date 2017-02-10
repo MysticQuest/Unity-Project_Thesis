@@ -27,7 +27,7 @@ public class Useless : MonoBehaviour
         frame = GameObject.Find("TextFrame");
         image = frame.GetComponent<Image>();
 
-        InvokeRepeating("Roll", 1, 2);
+        InvokeRepeating("Roll", 1, 1.9f);
     }
 
     // Update is called once per frame
@@ -48,35 +48,35 @@ public class Useless : MonoBehaviour
                     Invoke("Fade", 2);
                     text.text = "Nothing useful in here.";
                 }
-                if (random > 50 && random < 101)
+                if (random > 100 && random < 201)
                 {
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
                     Invoke("Fade", 2);
                     text.text = "There's nothing I can do with these!";
                 }
-                if (random > 100 && random < 151)
+                if (random > 200 && random < 301)
                 {
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
                     Invoke("Fade", 2);
                     text.text = "A bunch of useless stuff...";
                 }
-                if (random > 150 && random < 201)
+                if (random > 300 && random < 401)
                 {
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
                     Invoke("Fade", 2);
                     text.text = "I can't use this trash!";
                 }
-                if (random > 200 && random < 250)
+                if (random > 400 && random < 500)
                 {
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
                     Invoke("Fade", 2);
                     text.text = "Were you expecting to find treasure? Seriously...";
                 }
-                if (random == 250 && items.gotcape == false)
+                if (random == 500 && items.gotcape == false)
                 {
                     items.gotcape = true;
 
@@ -96,8 +96,8 @@ public class Useless : MonoBehaviour
     }
     void Fade()
     {
-        text.CrossFadeAlpha(1f, 1, false);
-        image.CrossFadeAlpha(1f, 1, false);
+        text.CrossFadeAlpha(1f, 2, false);
+        image.CrossFadeAlpha(1f, 2, false);
     }
 }
 

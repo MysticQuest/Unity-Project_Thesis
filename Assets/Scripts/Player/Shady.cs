@@ -8,6 +8,12 @@ public class Shady : MonoBehaviour
     public GameObject choice;
     public GameObject player;
 
+    public GameObject house;
+    public HouseHealth houseHealth;
+
+    public GameObject selection;
+    public GameObject choiceA;
+
     public ItemEffects items;
 
     public bool goaway1 = true;
@@ -28,6 +34,8 @@ public class Shady : MonoBehaviour
         player = GameObject.FindWithTag("Player");
 
         choice = GameObject.Find("Choice");
+        choiceA = GameObject.Find("ChoiceA");
+        selection = GameObject.Find("Selection");
 
         items = player.GetComponent<ItemEffects>();
 
@@ -36,7 +44,12 @@ public class Shady : MonoBehaviour
         frame = GameObject.Find("TextFrame");
         image = frame.GetComponent<Image>();
 
+        house = GameObject.FindWithTag("HouseHitbox");
+        houseHealth = house.GetComponent<HouseHealth>();
+
         choice.SetActive(false);
+        choiceA.SetActive(false);
+        selection.SetActive(false);
     }
 
     // Update is called once per frame
@@ -51,75 +64,30 @@ public class Shady : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                if (goaway1 == true)
-                {
-                    text.canvasRenderer.SetAlpha(255f);
-                    image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 3);
+                text.canvasRenderer.SetAlpha(255f);
+                image.canvasRenderer.SetAlpha(255f);
 
-                    text.text = "Shady person: What do you want? Go away!";
-                }
-                if (items.gotkey == true && goaway2 == false)
-                {
-                    goaway1 = false;
-                    text.canvasRenderer.SetAlpha(255f);
-                    image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+                text.text = "Shady person: What do you want?";
 
-                    text.text = "Shady person: I could modify that key of yours. I'll give you a discount... 3 rupies.";
-
-                    Cursor.visible = true;
-                    choice.SetActive(true);
-                    Time.timeScale = 0;
-                }
-                if (items.gotkey2 == true)
-                {
-                    text.canvasRenderer.SetAlpha(255f);
-                    image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
-
-                    text.text = "Shady person: I could modify your key back to how it was for, say ...50 rupies.";
-
-                    Cursor.visible = true;
-                    choice.SetActive(true);
-                    Time.timeScale = 0;
-                }
-                if (goaway2 == true && items.gotmanual == false)
-                {
-                    text.canvasRenderer.SetAlpha(255f);
-                    image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
-
-                    text.text = "Shady person: We are done... for now.";
-                }
-                if (goaway2 == true && items.gotmanual == true)
-                {
-                    text.canvasRenderer.SetAlpha(255f);
-                    image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
-
-                    text.text = "Shady person: Now that we are friends, want me to translate that chinese manual for 60 rupies?";
-
-                    Cursor.visible = true;
-                    choice.SetActive(true);
-                    Time.timeScale = 0;
-                }
-                if (goaway3 == true)
-                {
-                    text.canvasRenderer.SetAlpha(255f);
-                    image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 3);
-
-                    text.text = "Shady person: Since I took all your money, here's a tip: keep searching trash, you may find something.";
-                }
-
+                Cursor.visible = true;
+                selection.SetActive(true);
+                Time.timeScale = 0;
             }
         }
     }
 
+    void OnTriggerExit2D(Collider2D other)
+    {
+        choice.SetActive(false);
+        choiceA.SetActive(false);
+        selection.SetActive(false);
+        Cursor.visible = false;
+        Invoke("Fade", 0.1f);
+    }
 
 
-    void Fade()
+
+    public void Fade()
     {
         text.CrossFadeAlpha(1f, 1, false);
         image.CrossFadeAlpha(1f, 1, false);
@@ -161,9 +129,9 @@ public class Shady : MonoBehaviour
         }
         else if (choice2 == true && choice3 == false)
         {
-            if(items.rupies > 49)
+            if (items.rupies > 29)
             {
-                items.rupies -= 50;
+                items.rupies -= 30;
                 items.gotkey = true;
                 items.gotkey2 = false;
 
@@ -195,9 +163,9 @@ public class Shady : MonoBehaviour
         }
         else //if (choice3 == true)
         {
-            if (items.rupies > 59)
+            if (items.rupies > 39)
             {
-                items.rupies -= 60;
+                items.rupies -= 40;
                 items.gotmanual = false;
                 items.gotmanualx = true;
 
@@ -224,7 +192,7 @@ public class Shady : MonoBehaviour
                 Cursor.visible = false;
                 choice.SetActive(false);
                 Time.timeScale = 1;
-            }    
+            }
         }
     }
 
@@ -240,4 +208,147 @@ public class Shady : MonoBehaviour
         choice.SetActive(false);
         Time.timeScale = 1;
     }
+
+
+
+    public void Help()
+    {
+
+        if (goaway1 == true)
+        {
+            text.canvasRenderer.SetAlpha(255f);
+            image.canvasRenderer.SetAlpha(255f);
+            Invoke("Fade", 3);
+
+            text.text = "Shady person: What do you want? Go away!";
+            selection.SetActive(false);
+            Cursor.visible = false;
+            Time.timeScale = 1;
+        }
+        if (items.gotkey == true && goaway2 == false)
+        {
+            goaway1 = false;
+            text.canvasRenderer.SetAlpha(255f);
+            image.canvasRenderer.SetAlpha(255f);
+            Invoke("Fade", 3);
+
+            text.text = "Shady person: I could modify that key of yours. I'll give you a discount... 3 rupies.";
+
+            Cursor.visible = true;
+            selection.SetActive(false);
+            choice.SetActive(true);
+            Time.timeScale = 0;
+            
+        }
+        if (items.gotkey2 == true)
+        {
+            text.canvasRenderer.SetAlpha(255f);
+            image.canvasRenderer.SetAlpha(255f);
+            Invoke("Fade", 2);
+
+            text.text = "Shady person: I could modify your key back to how it was for, say ...30 rupies.";
+
+            Cursor.visible = true;
+            selection.SetActive(false);
+            choice.SetActive(true);
+            Time.timeScale = 0;
+        }
+        if (goaway2 == true && items.gotmanual == false)
+        {
+            text.canvasRenderer.SetAlpha(255f);
+            image.canvasRenderer.SetAlpha(255f);
+            Invoke("Fade", 2);
+
+            text.text = "Shady person: We are done... for now.";
+            selection.SetActive(false);
+            Cursor.visible = false;
+            Time.timeScale = 1;
+        }
+        if (goaway2 == true && items.gotmanual == true)
+        {
+            text.canvasRenderer.SetAlpha(255f);
+            image.canvasRenderer.SetAlpha(255f);
+            Invoke("Fade", 2);
+
+            text.text = "Shady person: Now that we are friends, want me to translate that chinese manual for 40 rupies?";
+
+            Cursor.visible = true;
+            selection.SetActive(false);
+            choice.SetActive(true);
+            Time.timeScale = 0;
+        }
+        if (goaway3 == true)
+        {
+            text.canvasRenderer.SetAlpha(255f);
+            image.canvasRenderer.SetAlpha(255f);
+            Invoke("Fade", 3);
+
+            text.text = "Shady person: Since I took all your money, here's a tip: keep searching trash, you may find something.";
+            selection.SetActive(false);
+            Cursor.visible = false;
+            Time.timeScale = 1;
+        }
+    }
+
+    public void Repair()
+    {
+        text.canvasRenderer.SetAlpha(255f);
+        image.canvasRenderer.SetAlpha(255f);
+        Invoke("Fade", 2);
+
+        text.text = "Shady person: I could fortify your house a little for 20 rupies, no guarantees.";
+
+        Cursor.visible = true;
+        selection.SetActive(false);
+        choiceA.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void Yes1()
+    {
+        if (items.rupies > 19)
+        {
+            items.rupies -= 20;
+            houseHealth.currentHealth += 150;
+
+            text.canvasRenderer.SetAlpha(255f);
+            image.canvasRenderer.SetAlpha(255f);
+            Invoke("Fade", 2);
+
+            text.text = "Shady person: There, good as new!";
+
+            Cursor.visible = false;
+            choiceA.SetActive(false);
+            Time.timeScale = 1;
+        }
+        else
+        {
+            text.canvasRenderer.SetAlpha(255f);
+            image.canvasRenderer.SetAlpha(255f);
+            Invoke("Fade", 2);
+
+            text.text = "Shady person: Want me to do it for free? Dream on.";
+
+            Cursor.visible = false;
+            choiceA.SetActive(false);
+            Time.timeScale = 1;
+        }
+    }
+
+    public void No1()
+    {
+        text.canvasRenderer.SetAlpha(255f);
+        image.canvasRenderer.SetAlpha(255f);
+        Invoke("Fade", 2);
+
+        text.text = "Shady person: Don't blame me if your house gets destroyed...";
+
+        Cursor.visible = false;
+        choiceA.SetActive(false);
+        Time.timeScale = 1;
+
+    }
 }
+
+
+

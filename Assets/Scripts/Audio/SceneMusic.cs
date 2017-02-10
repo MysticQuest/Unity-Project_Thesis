@@ -23,6 +23,8 @@ public class SceneMusic : MonoBehaviour
 
     public Health health;
 
+    public GameObject house;
+
     void Start()
     {
         canvas = GameObject.Find("Canvas");
@@ -31,6 +33,8 @@ public class SceneMusic : MonoBehaviour
         player = GameObject.FindWithTag("Player");
 
         health = GetComponent<Health>();
+
+        house = GameObject.FindWithTag("HouseHitbox");
     }
 
     void Update ()
@@ -42,22 +46,22 @@ public class SceneMusic : MonoBehaviour
             bossclip = true;
         }
 
-        if (timer > 105f && musicplayer.clip != night && player != null && bossclip == false)
+        if (timer > 105f && musicplayer.clip != night && (player != null && house != null) && bossclip == false)
         {
             Invoke("Night", 4);
             musicplayer.volume -= Time.deltaTime * 0.017f;            
         }
-        else if (musicplayer.clip != day && timer < 100f && player !=null)
+        else if (musicplayer.clip != day && timer < 100f && (player != null && house != null))
         {
             Invoke("Day", 4);
             musicplayer.volume -= Time.deltaTime * 0.017f;
         }
-        else if (musicplayer.clip != boss && timer > 160f && time.day > 2 && player != null)
+        else if (musicplayer.clip != boss && timer > 160f && time.day > 2 && (player != null && house != null))
         {
             Invoke("Boss", 10);
             musicplayer.volume -= Time.deltaTime * 0.017f;
         }
-        else if (musicplayer.clip != gameover && player == null)
+        else if (musicplayer.clip != gameover && (player == null || house == null))
         {
             Gameover();
         }
@@ -98,6 +102,7 @@ public class SceneMusic : MonoBehaviour
     {
         musicplayer.clip = gameover;
         musicplayer.Play();
+        Time.timeScale = 0;
     }
 
 }
