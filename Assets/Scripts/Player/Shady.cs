@@ -82,7 +82,8 @@ public class Shady : MonoBehaviour
         choiceA.SetActive(false);
         selection.SetActive(false);
         Cursor.visible = false;
-        Invoke("Fade", 0.1f);
+        text.CrossFadeAlpha(1f, 2, false);
+        image.CrossFadeAlpha(1f, 2, false);
     }
 
 
@@ -105,7 +106,7 @@ public class Shady : MonoBehaviour
 
                 text.canvasRenderer.SetAlpha(255f);
                 image.canvasRenderer.SetAlpha(255f);
-                Invoke("Fade", 2);
+                //Invoke("Fade", 2);
 
                 text.text = "Shady person: Pleasure doing buisness.";
 
@@ -118,9 +119,9 @@ public class Shady : MonoBehaviour
             {
                 text.canvasRenderer.SetAlpha(255f);
                 image.canvasRenderer.SetAlpha(255f);
-                Invoke("Fade", 2);
+                //Invoke("Fade", 2);
 
-                text.text = "Shady person: You don't even have 3 rupies trash...";
+                text.text = "Shady person: You don't even have 3 rupies...?";
 
                 Cursor.visible = false;
                 choice.SetActive(false);
@@ -137,9 +138,9 @@ public class Shady : MonoBehaviour
 
                 text.canvasRenderer.SetAlpha(255f);
                 image.canvasRenderer.SetAlpha(255f);
-                Invoke("Fade", 2);
+                //Invoke("Fade", 2);
 
-                text.text = "Shady person: Good rid... err I mean thank you.";
+                text.text = "Shady person: Thanks for the transaction.";
 
                 Cursor.visible = false;
                 choice.SetActive(false);
@@ -152,9 +153,9 @@ public class Shady : MonoBehaviour
             {
                 text.canvasRenderer.SetAlpha(255f);
                 image.canvasRenderer.SetAlpha(255f);
-                Invoke("Fade", 2);
+                //Invoke("Fade", 2);
 
-                text.text = "Shady person: Too expensive for you, trash?";
+                text.text = "Shady person: Too expensive for you?";
 
                 Cursor.visible = false;
                 choice.SetActive(false);
@@ -171,7 +172,7 @@ public class Shady : MonoBehaviour
 
                 text.canvasRenderer.SetAlpha(255f);
                 image.canvasRenderer.SetAlpha(255f);
-                Invoke("Fade", 2);
+                //Invoke("Fade", 2);
 
                 text.text = "Shady person: Alright, I translated it to english.";
 
@@ -185,9 +186,9 @@ public class Shady : MonoBehaviour
             {
                 text.canvasRenderer.SetAlpha(255f);
                 image.canvasRenderer.SetAlpha(255f);
-                Invoke("Fade", 2);
+                //Invoke("Fade", 2);
 
-                text.text = "Shady person: Not enough money? I hope you have fun learning Chinese, trash.";
+                text.text = "Shady person: You don't have enough money. I hope you have fun learning Chinese.";
 
                 Cursor.visible = false;
                 choice.SetActive(false);
@@ -200,9 +201,9 @@ public class Shady : MonoBehaviour
     {
         text.canvasRenderer.SetAlpha(255f);
         image.canvasRenderer.SetAlpha(255f);
-        Invoke("Fade", 2);
+        //Invoke("Fade", 2);
 
-        text.text = "Shady person: Your loss, trash.";
+        text.text = "Shady person: Your loss...";
 
         Cursor.visible = false;
         choice.SetActive(false);
@@ -218,7 +219,7 @@ public class Shady : MonoBehaviour
         {
             text.canvasRenderer.SetAlpha(255f);
             image.canvasRenderer.SetAlpha(255f);
-            Invoke("Fade", 3);
+            //Invoke("Fade", 3);
 
             text.text = "Shady person: What do you want? Go away!";
             selection.SetActive(false);
@@ -230,7 +231,7 @@ public class Shady : MonoBehaviour
             goaway1 = false;
             text.canvasRenderer.SetAlpha(255f);
             image.canvasRenderer.SetAlpha(255f);
-            Invoke("Fade", 3);
+            //Invoke("Fade", 3);
 
             text.text = "Shady person: I could modify that key of yours. I'll give you a discount... 3 rupies.";
 
@@ -244,7 +245,7 @@ public class Shady : MonoBehaviour
         {
             text.canvasRenderer.SetAlpha(255f);
             image.canvasRenderer.SetAlpha(255f);
-            Invoke("Fade", 2);
+            //Invoke("Fade", 2);
 
             text.text = "Shady person: I could modify your key back to how it was for, say ...30 rupies.";
 
@@ -257,7 +258,7 @@ public class Shady : MonoBehaviour
         {
             text.canvasRenderer.SetAlpha(255f);
             image.canvasRenderer.SetAlpha(255f);
-            Invoke("Fade", 2);
+            //Invoke("Fade", 2);
 
             text.text = "Shady person: We are done... for now.";
             selection.SetActive(false);
@@ -268,9 +269,9 @@ public class Shady : MonoBehaviour
         {
             text.canvasRenderer.SetAlpha(255f);
             image.canvasRenderer.SetAlpha(255f);
-            Invoke("Fade", 2);
+            //Invoke("Fade", 2);
 
-            text.text = "Shady person: Now that we are friends, want me to translate that chinese manual for 40 rupies?";
+            text.text = "Shady person: Want me to translate that chinese manual you have for 40 rupies?";
 
             Cursor.visible = true;
             selection.SetActive(false);
@@ -281,9 +282,9 @@ public class Shady : MonoBehaviour
         {
             text.canvasRenderer.SetAlpha(255f);
             image.canvasRenderer.SetAlpha(255f);
-            Invoke("Fade", 3);
+            //Invoke("Fade", 3);
 
-            text.text = "Shady person: Since I took all your money, here's a tip: keep searching trash, you may find something.";
+            text.text = "Shady person: Since I took all your money, here's a tip: keep searching useless stuff, you may find something.";
             selection.SetActive(false);
             Cursor.visible = false;
             Time.timeScale = 1;
@@ -294,7 +295,7 @@ public class Shady : MonoBehaviour
     {
         text.canvasRenderer.SetAlpha(255f);
         image.canvasRenderer.SetAlpha(255f);
-        Invoke("Fade", 2);
+        //Invoke("Fade", 2);
 
         text.text = "Shady person: I could fortify your house a little for 20 rupies, no guarantees.";
 
@@ -313,7 +314,7 @@ public class Shady : MonoBehaviour
 
             text.canvasRenderer.SetAlpha(255f);
             image.canvasRenderer.SetAlpha(255f);
-            Invoke("Fade", 2);
+            //Invoke("Fade", 2);
 
             text.text = "Shady person: There, good as new!";
 
@@ -325,7 +326,7 @@ public class Shady : MonoBehaviour
         {
             text.canvasRenderer.SetAlpha(255f);
             image.canvasRenderer.SetAlpha(255f);
-            Invoke("Fade", 2);
+            //Invoke("Fade", 2);
 
             text.text = "Shady person: Want me to do it for free? Dream on.";
 
@@ -339,7 +340,7 @@ public class Shady : MonoBehaviour
     {
         text.canvasRenderer.SetAlpha(255f);
         image.canvasRenderer.SetAlpha(255f);
-        Invoke("Fade", 2);
+        //Invoke("Fade", 2);
 
         text.text = "Shady person: Don't blame me if your house gets destroyed...";
 

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine.UI;
 
 public class Boss : MonoBehaviour {
 
@@ -64,6 +65,11 @@ public class Boss : MonoBehaviour {
     public AudioSource musicplayer;
     public AudioSource bossplayer;
 
+    public GameObject black;
+    public Image blackimage;
+    public GameObject ending;
+    public Text endtext;
+
     // Use this for initialization
     void Start()
     {
@@ -93,6 +99,12 @@ public class Boss : MonoBehaviour {
         music = GameObject.Find("MusicPlayer");
         musicplayer = music.GetComponent<AudioSource>();
         bossplayer = GetComponent<AudioSource>();
+
+        black = GameObject.Find("Black");
+        blackimage = black.GetComponent<Image>();
+        ending = GameObject.Find("Ending");
+        endtext = ending.GetComponent<Text>();
+
     }
 
 
@@ -108,8 +120,13 @@ public class Boss : MonoBehaviour {
             //bossdead = true;
             musicplayer.mute = true;
             bossplayer.Play();
-            Time.timeScale = 0;
 
+            blackimage.CrossFadeAlpha(255f, 3f, false);
+            endtext.CrossFadeAlpha(255f, 3f, false);
+
+            endtext.text = "Victory!";
+
+            Time.timeScale = 0;
         }
 
         //smooth animations

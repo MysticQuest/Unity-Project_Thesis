@@ -26,7 +26,7 @@ public class BatAttack : MonoBehaviour {
         health = GetComponent<Health>();
 	}
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject == player)
         {
@@ -40,14 +40,14 @@ public class BatAttack : MonoBehaviour {
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject == player)
-        {
+        //if (other.gameObject == player)
+        //{
             inRange = false;
-        }
-        else if (other.gameObject == house)
-        {
+        //}
+        //else if (other.gameObject == house)
+        //{
             inRange2 = false;
-        } 
+        //} 
     }
 
 

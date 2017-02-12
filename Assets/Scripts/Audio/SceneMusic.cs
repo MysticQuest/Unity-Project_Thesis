@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(AudioSource))]
 public class SceneMusic : MonoBehaviour
@@ -25,6 +26,14 @@ public class SceneMusic : MonoBehaviour
 
     public GameObject house;
 
+    public GameObject black;
+    public Image blackimage;
+    public GameObject ending;
+    public Text endtext;
+
+    public GameObject maincam;
+    public AudioListener listen;
+
     void Start()
     {
         canvas = GameObject.Find("Canvas");
@@ -35,6 +44,16 @@ public class SceneMusic : MonoBehaviour
         health = GetComponent<Health>();
 
         house = GameObject.FindWithTag("HouseHitbox");
+
+        black = GameObject.Find("Black");
+        blackimage = black.GetComponent<Image>();
+        ending = GameObject.Find("Ending");
+        endtext = ending.GetComponent<Text>();
+
+        maincam = GameObject.Find("Main Camera");
+        listen = maincam.GetComponent<AudioListener>();
+
+        listen.enabled = false;
     }
 
     void Update ()
@@ -102,6 +121,13 @@ public class SceneMusic : MonoBehaviour
     {
         musicplayer.clip = gameover;
         musicplayer.Play();
+
+        blackimage.CrossFadeAlpha(255f, 2f, true);
+        endtext.CrossFadeAlpha(255f, 3f, true);
+
+        endtext.text = "Game Over";
+        listen.enabled = true;
+
         Time.timeScale = 0;
     }
 

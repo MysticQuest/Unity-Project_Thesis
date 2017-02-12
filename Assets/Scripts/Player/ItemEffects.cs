@@ -89,6 +89,10 @@ public class ItemEffects : MonoBehaviour
             attack.damage += 5;
             health.maxHealth += 50;
             col.enabled = false;
+            Color tmp = player.GetComponent<SpriteRenderer>().color;
+            tmp.a = 0.5f;
+            movement.speed += 0.5f;
+            player.GetComponent<SpriteRenderer>().color = tmp;
         }
     }
 
@@ -100,7 +104,7 @@ public class ItemEffects : MonoBehaviour
             {
                 effectplayer.clip = heartsound;
                 effectplayer.Play();
-                health.currentHealth += 20;
+                health.currentHealth += 25;
                 Destroy(other.gameObject);
             }
         }

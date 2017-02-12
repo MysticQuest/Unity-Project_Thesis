@@ -16,6 +16,9 @@ public class Useless : MonoBehaviour
     public GameObject frame;
     public Image image;
 
+    //public float alpha;
+    public float fadetimer;
+
     // Use this for initialization
     void Start()
     {
@@ -27,13 +30,21 @@ public class Useless : MonoBehaviour
         frame = GameObject.Find("TextFrame");
         image = frame.GetComponent<Image>();
 
-        InvokeRepeating("Roll", 1, 1.9f);
+        InvokeRepeating("Roll", 0, 0.5f);
     }
 
     // Update is called once per frame
     void Update()
     {
-  
+        /*alpha = text.canvasRenderer.GetAlpha();
+
+        fadetimer += Time.deltaTime;
+
+        if (fadetimer >= 5)
+        {
+            text.CrossFadeAlpha(1f, 2, false);
+            image.CrossFadeAlpha(1f, 2, false);
+        }*/
     }
     void OnTriggerStay2D(Collider2D other)
     {
@@ -43,50 +54,70 @@ public class Useless : MonoBehaviour
             {
                 if (random < 51)
                 {
+                    fadetimer = 0;
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+
                     text.text = "Nothing useful in here.";
+                    
                 }
                 if (random > 100 && random < 201)
                 {
+                    fadetimer = 0;
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+
                     text.text = "There's nothing I can do with these!";
+                    
                 }
                 if (random > 200 && random < 301)
                 {
+                    fadetimer = 0;
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+
                     text.text = "A bunch of useless stuff...";
+                    
                 }
                 if (random > 300 && random < 401)
                 {
+                    fadetimer = 0;
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+
                     text.text = "I can't use this trash!";
+                    
                 }
                 if (random > 400 && random < 500)
                 {
+                    fadetimer = 0;
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+
                     text.text = "Were you expecting to find treasure? Seriously...";
+                    
                 }
                 if (random == 500 && items.gotcape == false)
                 {
+                    fadetimer = 0;
                     items.gotcape = true;
 
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
 
                     text.text = "Found Etheral Cape! Better not glitch out the game with this...";
+                    
                 }
             }
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject == player)
+        {
+            text.CrossFadeAlpha(1f, 2, false);
+            image.CrossFadeAlpha(1f, 2, false);
         }
     }
 
@@ -94,10 +125,11 @@ public class Useless : MonoBehaviour
     {
         random = Random.Range(1, 251);
     }
-    void Fade()
+}
+/*    void Fade()
     {
         text.CrossFadeAlpha(1f, 2, false);
         image.CrossFadeAlpha(1f, 2, false);
     }
-}
+*/
 

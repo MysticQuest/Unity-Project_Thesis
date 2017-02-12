@@ -123,11 +123,11 @@ public class Health : MonoBehaviour {
     {
         if (target.name == "Bat(Clone)")
         {
-            if (randomDrop <= 45)
+            if (randomDrop <= 50)
             {
                 genericDrop1 = Instantiate(itemDrop1, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 40 && randomDrop <= 75)
+            else if (randomDrop >= 50 && randomDrop <= 80)
             {
                 genericDrop2 = Instantiate(itemDrop2, transform.position, Quaternion.identity) as GameObject;
             }

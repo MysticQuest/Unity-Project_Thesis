@@ -58,7 +58,7 @@ public class Interactables : MonoBehaviour
 
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+                    //Invoke("Fade", 2);
 
                     text.text = "Found Gauntlets of Strength!";
                 }
@@ -66,7 +66,7 @@ public class Interactables : MonoBehaviour
                 {
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+                    //Invoke("Fade", 2);
 
                     text.text = "It's locked...";
                 }
@@ -74,7 +74,7 @@ public class Interactables : MonoBehaviour
                 {
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+                    //Invoke("Fade", 2);
 
                     text.text = "If I could modify my house keys somehow...";
                 }
@@ -85,5 +85,13 @@ public class Interactables : MonoBehaviour
     {
         text.CrossFadeAlpha(1f, 1, false);
         image.CrossFadeAlpha(1f, 1, false);
+    }
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject == player)
+        {
+            text.CrossFadeAlpha(1f, 2, false);
+            image.CrossFadeAlpha(1f, 2, false);
+        }
     }
 }

@@ -34,7 +34,7 @@ public class PlayerHealth : MonoBehaviour {
         damagedtimer += Time.deltaTime;
         if (regen == true)
         {
-            currentHealth += Time.deltaTime;
+            currentHealth += Time.deltaTime * 2;
             maxHealth = 150;
         }
         if (currentHealth > maxHealth)

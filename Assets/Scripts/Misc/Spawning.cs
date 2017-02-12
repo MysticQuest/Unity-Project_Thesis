@@ -85,7 +85,7 @@ public class Spawning : MonoBehaviour
         kfreq = Random.Range(15, 20);
         if (daycount.day < 2)
         {
-            mfreq = Random.Range(10, 16);
+            mfreq = Random.Range(12, 16);
         }
         else
         {
@@ -107,7 +107,7 @@ public class Spawning : MonoBehaviour
         if (timer2 >= bfreq)
             SpawnBat();
 
-        if (timer3 >= kfreq && daycount.day > 2)
+        if (timer3 >= kfreq) //&& daycount.day > 2)
             SpawnKnight();
 
         if (daycount.day > 2 && globaltimer.timer > 170f && bossup == false)

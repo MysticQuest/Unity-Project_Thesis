@@ -46,18 +46,24 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("IsWalking", false);
         }
 
+        //sword layer problem
+
         diry = anim.GetFloat("Input_y");
         dirx = anim.GetFloat("Input_x");
         sword = GameObject.Find("sword");
         if (sword != null)
         {
             layer = sword.GetComponent<SpriteRenderer>();
-            if (dirx < 0 || diry < 0)
+            if (diry < 0)
             {
                 layer.sortingOrder = 6;
             }
             else layer.sortingOrder = 5;
         }
+    
+
+
+        //
 
         if (isAttacking == false)
         {

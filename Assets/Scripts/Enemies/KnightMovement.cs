@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-public class KnightMovement : MonoBehaviour {
+public class KnightMovement : MonoBehaviour
+{
 
     public float speed;
 
@@ -15,13 +16,13 @@ public class KnightMovement : MonoBehaviour {
     public GameObject player;
     public GameObject house;
     public Transform playerpos;
-    public Transform playerpos2;
+    //public Transform playerpos2;
     public Transform housepos;
-    public float playerposY;
+    //public float playerposY;
 
     GameObject finalwaypoint;
     Transform stop;
-    
+
     //Vector3 direction;
     public float attackCooldown;
     //public float attackCooldownM;
@@ -47,12 +48,14 @@ public class KnightMovement : MonoBehaviour {
 
     public bool IsAttacking = false;
 
-    public Transform target;
+    //public Transform target;
     public float xDir;
     public float yDir;
 
+    private SpriteRenderer sprite;
+
     // Use this for initialization
-    void Start ()
+    void Start()
     {
 
         player = GameObject.FindWithTag("Player");
@@ -64,7 +67,7 @@ public class KnightMovement : MonoBehaviour {
         knightpos = GetComponent<Transform>();
         playerpos = player.GetComponent<Transform>();
         housepos = house.GetComponent<Transform>();
-        
+
 
         //waypoints = GameObject.FindGameObjectsWithTag("Waypoint");
 
@@ -77,13 +80,24 @@ public class KnightMovement : MonoBehaviour {
 
         collisions = GameObject.FindGameObjectsWithTag("GenCollisions");
 
- 
+        sprite = this.GetComponent<SpriteRenderer>();
     }
 
 
     // Update is called once per frame
-    void Update ()
+    void Update()
     {
+        //knight layer
+        if (gameObject.name == "Knight(Clone)")
+        {
+            if (knightpos.position.y > playerpos.position.y)
+            {
+                sprite.sortingOrder = 5;
+            }
+            else sprite.sortingOrder = 7;
+        }
+
+
         /*
                 knightvector = (new Vector2(x, y)).normalized;
                 body.velocity = knightvector;
@@ -117,18 +131,18 @@ public class KnightMovement : MonoBehaviour {
             }
         }
         else
+        {
+            knightvector = transform.position - prevPos;
+            anim.SetFloat("x", knightvector.x);
+            anim.SetFloat("y", knightvector.y);
+            if (animtimer > 0.5)
             {
-                knightvector = transform.position - prevPos;
-                anim.SetFloat("x", knightvector.x);
-                anim.SetFloat("y", knightvector.y);
-                if (animtimer > 0.5)
-                {
-                    prevPos = transform.position;
-                    animtimer = 0;
-                }
+                prevPos = transform.position;
+                animtimer = 0;
             }
+        }
 
-        if ((Vector2.Distance(knightpos.position, playerpos.position) <= attackRange && timerCooldown > attackCooldown) || (Vector2.Distance(knightpos.position, housepos.position) <= attackRange +0.6f && timerCooldown > attackCooldown))
+        if ((Vector2.Distance(knightpos.position, playerpos.position) <= attackRange && timerCooldown > attackCooldown) || (Vector2.Distance(knightpos.position, housepos.position) <= attackRange + 0.6f && timerCooldown > attackCooldown))
         {
             anim.SetBool("IsAttacking", true);
             timerCooldown = 0;
@@ -145,7 +159,7 @@ public class KnightMovement : MonoBehaviour {
 
             if (gameObject.name == "Knight(Clone)")
             {
-                transform.position = Vector2.MoveTowards(transform.position, playerpos.position - playerpos.up * 0.2f, speed * Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, playerpos.position - playerpos.up * 0.3f, speed * Time.deltaTime);
             }
 
             else if (gameObject.name == "Monster(Clone)")
@@ -160,7 +174,7 @@ public class KnightMovement : MonoBehaviour {
         }
         else if (Vector2.Distance(knightpos.position, playerpos.position) > aggroRange)
         {
- 
+
             closestWaypoint();
             if (closest != null)
             {
@@ -176,7 +190,7 @@ public class KnightMovement : MonoBehaviour {
                     //closestPosition.position = Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime);
                 }
             }
-            
+
             else
             {
                 if (timer > timerMax)// && transform.position == stop.position)
@@ -215,21 +229,21 @@ public class KnightMovement : MonoBehaviour {
                 }
             }
         }
-        else return; 
-                         
+        else return;
 
-            /*        timer += Time.deltaTime;
-                    if (timer > 3)
-                    {
-                        direction = (new Vector3(Random.Range(-1.0f, 1.0f), 0.0f, Random.Range(-1.0f, 1.0f))).normalized;
-                        timer = 0;
-                    }
-                    else
-                    {
-                        return;
-                    }*/
 
-        
+        /*        timer += Time.deltaTime;
+                if (timer > 3)
+                {
+                    direction = (new Vector3(Random.Range(-1.0f, 1.0f), 0.0f, Random.Range(-1.0f, 1.0f))).normalized;
+                    timer = 0;
+                }
+                else
+                {
+                    return;
+                }*/
+
+
     }
 
     public GameObject closestWaypoint()
@@ -251,7 +265,7 @@ public class KnightMovement : MonoBehaviour {
 
     public void OnCollisionStay2D(Collision2D other)
     {
-          foreach (GameObject collision in collisions)
+        foreach (GameObject collision in collisions)
         {
             if (other.gameObject == collision)
             {

@@ -70,7 +70,7 @@ public class UpgradeSword : MonoBehaviour
 
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+                    //Invoke("Fade", 2);
 
                     text.text = "Sword upgraded!";
                 }
@@ -78,7 +78,7 @@ public class UpgradeSword : MonoBehaviour
                 {
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+                    //Invoke("Fade", 2);
 
                     text.text = "The manual is in Chinese... I have to translate it somehow.";
                 }
@@ -86,7 +86,7 @@ public class UpgradeSword : MonoBehaviour
                 {
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+                    //Invoke("Fade", 2);
 
                     text.text = "I don't know how to use this...";
                 }
@@ -102,5 +102,13 @@ public class UpgradeSword : MonoBehaviour
     {
         pmove.enabled = true;
         anim.enabled = true;
+    }
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject == player)
+        {
+            text.CrossFadeAlpha(1f, 2, false);
+            image.CrossFadeAlpha(1f, 2, false);
+        }
     }
 }

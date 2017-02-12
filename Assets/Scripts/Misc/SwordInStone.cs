@@ -71,7 +71,7 @@ public class SwordInStone : MonoBehaviour {
 
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+                    //Invoke("Fade", 2);
 
                     text.text = "The sword is coming out...!";
                 }
@@ -79,7 +79,7 @@ public class SwordInStone : MonoBehaviour {
                 {
                     text.canvasRenderer.SetAlpha(255f);
                     image.canvasRenderer.SetAlpha(255f);
-                    Invoke("Fade", 2);
+                    //Invoke("Fade", 2);
 
                     text.text = "I am not strong enough to pull it out of the stone...";
                 }
@@ -96,5 +96,13 @@ public class SwordInStone : MonoBehaviour {
     {
         text.CrossFadeAlpha(1f, 1, false);
         image.CrossFadeAlpha(1f, 1, false);
+    }
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject == player)
+        {
+            text.CrossFadeAlpha(1f, 2, false);
+            image.CrossFadeAlpha(1f, 2, false);
+        }
     }
 }
