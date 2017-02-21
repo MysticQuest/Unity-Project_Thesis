@@ -31,31 +31,42 @@ public class BatMovement : MonoBehaviour
 
        house = GameObject.FindGameObjectWithTag("House");
        housepos = house.GetComponent<Transform>();
+
     }
 
     // Update is called once per frame
     void Update()
-    {
+    { 
+        //another way for aggro, find objects within circle
         /*       Collider2D[] aggroplayer = Physics2D.OverlapCircleAll(batpos.position, aggroRange, 0);
                foreach (Collider2D entity in aggroplayer)
                {
                    if (entity == player)
                    {
-                       Debug.Log("FAIL");
+                       Debug.Log("test");
                        transform.Translate(Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime));
                    }
                }*/
 
         if (Vector2.Distance(batpos.position, playerpos.position) < aggroRange)
         {
-            transform.position = Vector2.MoveTowards(transform.position, playerpos.position - playerpos.up * 0.01f, speed * Time.deltaTime);
+            if (gameObject.name == "Bat(Clone)")
+            {
+                transform.position = Vector2.MoveTowards(transform.position, playerpos.position - playerpos.up * 0.04f, speed * Time.deltaTime);
+            }
+            else
+            {
+                Vector2 direction = transform.position - player.transform.position;
+                direction.Normalize();
+            }
         }
-        else if (Vector2.Distance(batpos.position, housepos.position) < aggroRange2)
+        else if (Vector2.Distance(batpos.position, housepos.position) < aggroRange2 && gameObject.name == "Bat(Clone)")
         {
             transform.position = Vector2.MoveTowards(transform.position, housepos.position, speed * Time.deltaTime);
         }
         else
         { 
+            //random movement
             if (timer > timerMax)
             {
                 rand = Random.Range(1, 9);
@@ -100,6 +111,11 @@ public class BatMovement : MonoBehaviour
             if (other.gameObject == collision)
             {
                 rand = Random.Range(1, 9);
+                
+                //since Tiled imported general collision as one object, this will not work
+
+                //Vector3 direction = transform.position - collisions.transform.position;
+                //direction.Normalize();
             }
         }
     }

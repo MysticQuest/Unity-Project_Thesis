@@ -37,6 +37,9 @@ public class Health : MonoBehaviour {
 
     public AudioSource effectplayer;
 
+    public SpriteRenderer bleed;
+    public float bleedtimer;
+
     // Use this for initialization
     void Start()
     {
@@ -52,21 +55,32 @@ public class Health : MonoBehaviour {
         items = player.GetComponent<ItemEffects>();
 
         effectplayer = GetComponent<AudioSource>();
+
+        bleed = transform.Find("bleed").GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        bleedtimer += Time.deltaTime;
+
         randomDrop = Random.Range(1, 101);
         target = this.gameObject;
 
         /*bat = GameObject.Find("Bat(Clone)");
         knight = GameObject.Find("Knight");
         monster = GameObject.Find("Monster");*/
+
+        if (bleedtimer > 0.8f)
+        {
+            bleed.enabled = false;
+            bleedtimer = 0;
+        }
     }
 
     public void Damaged(int damage)
     {
+        bleed.enabled = true;
         isDamaged = true;
         currentHealth -= damage;
         if (currentHealth <= 0 && !isDead)
@@ -95,7 +109,7 @@ public class Health : MonoBehaviour {
 
         //body.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezePositionX;
 
-        if (target.name == "Bat(Clone)")
+        if (target.name == "Bat(Clone)" || target.name == "Glowbat(Clone)")
         {
             batMovement = GetComponent<BatMovement>();
             batAttack = GetComponent<BatAttack>();
@@ -123,11 +137,11 @@ public class Health : MonoBehaviour {
     {
         if (target.name == "Bat(Clone)")
         {
-            if (randomDrop <= 50)
+            if (randomDrop <= 40)
             {
                 genericDrop1 = Instantiate(itemDrop1, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 50 && randomDrop <= 80)
+            else if (randomDrop >= 40 && randomDrop <= 85)
             {
                 genericDrop2 = Instantiate(itemDrop2, transform.position, Quaternion.identity) as GameObject;
             }
@@ -142,7 +156,7 @@ public class Health : MonoBehaviour {
             {
                 genericDrop1 = Instantiate(itemDrop1, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 40 && randomDrop <= 65)
+            else if (randomDrop >= 40 && randomDrop <= 75)
             {
                 genericDrop2 = Instantiate(itemDrop2, transform.position, Quaternion.identity) as GameObject;
             }
@@ -153,15 +167,30 @@ public class Health : MonoBehaviour {
         }
         else if (target.name == "Knight(Clone)")
         {
-            if (randomDrop <= 45)
+            if (randomDrop <= 55)
             {
                 genericDrop1 = Instantiate(itemDrop1, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 40 && randomDrop <= 55)
+            else if (randomDrop >= 50 && randomDrop <= 85)
             {
                 genericDrop2 = Instantiate(itemDrop2, transform.position, Quaternion.identity) as GameObject;
             }
-            else if (randomDrop >= 93 && items.gotplate == false)
+            else if (randomDrop >= 92 && items.gotplate == false)
+            {
+                genericDrop3 = Instantiate(itemDrop3, transform.position, Quaternion.identity) as GameObject;
+            }
+        }
+        else if (target.name == "Glowbat(Clone)")
+        {
+            if (randomDrop <= 55)
+            {
+                genericDrop1 = Instantiate(itemDrop1, transform.position, Quaternion.identity) as GameObject;
+            }
+            else if (randomDrop >= 50 && randomDrop <= 85)
+            {
+                genericDrop2 = Instantiate(itemDrop2, transform.position, Quaternion.identity) as GameObject;
+            }
+            else if (randomDrop >= 92 && items.gotplate == false)
             {
                 genericDrop3 = Instantiate(itemDrop3, transform.position, Quaternion.identity) as GameObject;
             }

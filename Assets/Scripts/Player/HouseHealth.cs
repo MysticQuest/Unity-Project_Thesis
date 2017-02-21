@@ -12,6 +12,12 @@ public class HouseHealth : MonoBehaviour {
     public Animator anim;
     public GameObject explosion;
 
+    public GameObject hfire1;
+    public GameObject hfire2;
+    public GameObject hfire3;
+
+    public AudioSource boom;
+
     //public GameObject musicplayer;
     //public AudioSource music;
 
@@ -20,6 +26,12 @@ public class HouseHealth : MonoBehaviour {
         explosion = GameObject.Find("explosion");
         currentHealth = maxHealth;
         anim = explosion.GetComponent<Animator>();
+
+        hfire1 = GameObject.Find("housefire1");
+        hfire2 = GameObject.Find("housefire2");
+        hfire3 = GameObject.Find("housefire3");
+
+        boom = explosion.GetComponent<AudioSource>();
 
         //musicplayer = GameObject.Find("MusicPlayer");
         //music = GetComponent<AudioSource>();
@@ -32,6 +44,34 @@ public class HouseHealth : MonoBehaviour {
         {
             currentHealth = maxHealth;
         }
+
+        if (maxHealth/currentHealth > 1.2f)
+        {
+            hfire1.GetComponent<SpriteRenderer>().enabled = true;
+        }
+        else
+        {
+            hfire1.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
+        if (maxHealth / currentHealth > 2f)
+        {
+            hfire2.GetComponent<SpriteRenderer>().enabled = true;
+        }
+        else
+        {
+            hfire2.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
+        if (maxHealth / currentHealth > 3.5f)
+        {
+            hfire3.GetComponent<SpriteRenderer>().enabled = true;
+        }
+        else
+        {
+            hfire3.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
     }
 
     public void Damaged(int damage)
@@ -48,7 +88,8 @@ public class HouseHealth : MonoBehaviour {
     {
         isDead = true;
         anim.SetTrigger("Destroyed");
-        Destroy(gameObject);
+        boom.Play();
+        Destroy(gameObject,0.5f);
     }
 
 

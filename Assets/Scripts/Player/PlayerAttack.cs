@@ -42,6 +42,7 @@ public class PlayerAttack : MonoBehaviour {
         //enemy = GameObject.FindWithTag("Enemy");
 
         body1 = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
 
         /*if (enemy != null)
         {
@@ -65,7 +66,7 @@ public class PlayerAttack : MonoBehaviour {
 
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
-        anim = GetComponent<Animator>();
+
         if (Input.GetMouseButton(0))
         {
             anim.SetBool("IsAttacking", true);

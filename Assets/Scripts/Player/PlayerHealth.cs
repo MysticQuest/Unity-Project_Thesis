@@ -10,13 +10,19 @@ public class PlayerHealth : MonoBehaviour {
     public float currentHealth = 100f;
 
     public PlayerMovement playerMovement;
-    public float damagedtimer;
-    public float damagecd;
+    public GameObject player;
+    //public float damagedtimer;
+    //public float damagecd;
 
     public AudioSource effectplayer;
     public AudioClip splats;
 
     public Animator anim;
+
+    //public GameObject blood;
+    public SpriteRenderer bleed;
+    //public Transform blood;
+    public float bleedtimer;
 
 	// Use this for initialization
 	void Start ()
@@ -26,12 +32,22 @@ public class PlayerHealth : MonoBehaviour {
         currentHealth = maxHealth;
 
         effectplayer = GetComponent<AudioSource>();
+
+        //blood = GameObject.Find("Player.bleed");
+        //bleed = blood.GetComponent<SpriteRenderer>();
+
+        bleed = transform.Find("bleed").GetComponent<SpriteRenderer>();
+
+        player = GameObject.FindWithTag("Player");
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
-        damagedtimer += Time.deltaTime;
+        //damagedtimer += Time.deltaTime;
+        bleedtimer += Time.deltaTime;
+
+
         if (regen == true)
         {
             currentHealth += Time.deltaTime * 2;
@@ -41,10 +57,17 @@ public class PlayerHealth : MonoBehaviour {
         {
             currentHealth = maxHealth;
         }
-	}
+
+        if (bleedtimer > 0.8f)
+        {
+            bleed.enabled = false;
+            bleedtimer = 0;
+        }
+    }
 
     public void Damaged(int damage)
     {
+        bleed.enabled = true;
         isDamaged = true;
         currentHealth -= damage;
         Debug.Log(currentHealth);

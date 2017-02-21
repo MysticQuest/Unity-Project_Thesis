@@ -15,6 +15,13 @@ public class Weapons : MonoBehaviour {
     public AudioSource effectplayer;
     public AudioClip punch;
 
+    public Vector2 velocity;
+
+    public BatMovement batmove;
+
+    public float knocktimer;
+    public float knockcd = 0.0f;
+
     // Use this for initialization
     void Start ()
     {
@@ -28,6 +35,8 @@ public class Weapons : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
+        knocktimer += Time.deltaTime;
+
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
         timer += Time.deltaTime;
 
@@ -64,8 +73,26 @@ public class Weapons : MonoBehaviour {
                     effectplayer.Play();
                     pattack.inRange = true;
 
+                    //problematic knockback attempts (work only on Y) - transform overrides physics (rigidbody movement)
 
-                    //problematic knockback attempts (work only on Y)
+                    /*if (knocktimer > knockcd)
+                    {
+                        //batmove = other.GetComponent<BatMovement>();
+                        //batmove.enabled = false;
+                        //other.transform.position = Vector2.MoveTowards(other.transform.position, player.transform.position, -2 * Time.deltaTime);
+
+                        knocktimer = 0;
+                        Vector3 knockback = (transform.position - player.transform.position).normalized * 30f * Time.deltaTime;
+                        other.transform.position = (knockback + other.transform.position);
+                    }*/
+                
+                    //other.transform.position = new Vector2(player.transform.position + other.transform.position *0.02f * Time.deltaTime).normalized;
+
+                    /*Rigidbody2D otherRigidbody = other.gameObject.GetComponent<Rigidbody2D>();
+                    Vector2 knockbackDir = (new Vector2(other.transform.position.x, other.transform.position.y) - new Vector2(player.transform.position.x, player.transform.position.y)).normalized;
+                    Vector2 knockbackDirRounded = new Vector2(Mathf.Round(knockbackDir.x), Mathf.Round(knockbackDir.y));
+                    otherRigidbody.velocity = new Vector2(knockbackDirRounded.x * 16, knockbackDirRounded.y * 2);
+                    velocity = otherRigidbody.velocity;*/
 
                     /*Vector3 directionVector = other.transform.position - transform.position;
                     Rigidbody2D body = other.GetComponent<Rigidbody2D>();
@@ -75,6 +102,7 @@ public class Weapons : MonoBehaviour {
                         ForceMode2D mode = ForceMode2D.Impulse;
                         body.AddForce(directionVector.normalized * forceMagnitude, mode);
                     }*/
+
                     //Vector3 direction = (other.transform.position - transform.position).normalized;
                     //body = other.GetComponent<Rigidbody2D>();
                     //body.AddForce(direction * 10);
@@ -82,7 +110,7 @@ public class Weapons : MonoBehaviour {
                     //Vector2 directionVector = other.gameObject.transform.position - this.transform.position;
                     //Rigidbody2D body = other.gameObject.GetComponent<Rigidbody2D>();
                     //body.velocity = directionVector.normalized;
-    
+
                 }
                 else
                 {
@@ -103,7 +131,29 @@ public class Weapons : MonoBehaviour {
             if (pattack.IsAttacking == true)
             {
                 pattack.inRange = false;
+                //batmove.enabled = true;
             }
         }
     }
+
+    /*void OnTriggerStay2D(Collider2D other)
+    {
+        foreach (GameObject enemy in enemies)
+        {
+            if (other.gameObject == enemy.gameObject)
+            {
+                if (knocktimer > knockcd)
+                {
+                    //batmove = other.GetComponent<BatMovement>();
+                    //batmove.enabled = false;
+                    //other.transform.position = Vector2.MoveTowards(other.transform.position, player.transform.position, -2 * Time.deltaTime);
+
+                    knocktimer = 0;
+                    Vector3 knockback = transform.position - player.transform.position;
+                    other.transform.position = knockback + other.transform.position;
+                }
+            }
+        }
+    }*/
+
 }

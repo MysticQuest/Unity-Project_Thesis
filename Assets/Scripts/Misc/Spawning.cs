@@ -13,6 +13,7 @@ public class Spawning : MonoBehaviour
     public float bfreq;
     public float kfreq;
     public float mfreq;
+    public float gfreq;
 
     //public Rigidbody2D fail;
 
@@ -50,6 +51,8 @@ public class Spawning : MonoBehaviour
     public GameObject Monster;
     public GameObject Boss;
     public GameObject genericBoss;
+    public GameObject Glowbat;
+    public GameObject genericGlow;
 
     public bool bossup = false;
 
@@ -83,9 +86,10 @@ public class Spawning : MonoBehaviour
     {
         bfreq = Random.Range(5, 7);
         kfreq = Random.Range(15, 20);
+        gfreq = Random.Range(50, 70);
         if (daycount.day < 2)
         {
-            mfreq = Random.Range(12, 16);
+            mfreq = Random.Range(13, 16);
         }
         else
         {
@@ -96,6 +100,7 @@ public class Spawning : MonoBehaviour
         timer1 += Time.deltaTime;
         timer2 += Time.deltaTime;
         timer3 += Time.deltaTime;
+        timer4 += Time.deltaTime;
 
         bsum = GameObject.FindGameObjectsWithTag("Bat");
         msum = GameObject.FindGameObjectsWithTag("Monster");
@@ -107,13 +112,54 @@ public class Spawning : MonoBehaviour
         if (timer2 >= bfreq)
             SpawnBat();
 
-        if (timer3 >= kfreq) //&& daycount.day > 2)
+        if (timer3 >= kfreq && daycount.day > 2)
             SpawnKnight();
 
         if (daycount.day > 2 && globaltimer.timer > 170f && bossup == false)
             SpawnBoss();
 
+        if (timer4 >= gfreq)
+        {
+            Spawnglow();
+        }
+
     }
+
+    void Spawnglow()
+    {
+        timer4 = 0;
+
+        int randomPick = Random.Range(1, 7);
+
+        if (randomPick == 1)
+        {
+            location = tspawn1;
+        }
+        if (randomPick == 2)
+        {
+            location = tspawn2;
+        }
+        if (randomPick == 3)
+        {
+            location = tspawn3;
+        }
+        if (randomPick == 4)
+        {
+            location = tspawn4;
+        }
+        if (randomPick == 5)
+        {
+            location = tspawn5;
+        }
+        if (randomPick == 6)
+        {
+            location = tspawn6;
+        }
+
+        genericGlow = Instantiate(Glowbat, location.position, location.rotation) as GameObject;
+        genericGlow.GetComponent<Rigidbody>();
+    }
+
 
     void SpawnBat()
     {
