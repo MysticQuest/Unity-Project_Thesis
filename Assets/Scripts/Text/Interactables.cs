@@ -76,15 +76,15 @@ public class Interactables : MonoBehaviour
                     image.canvasRenderer.SetAlpha(255f);
                     //Invoke("Fade", 2);
 
-                    text.text = "If I could modify my house keys somehow...";
+                    text.text = "Perhaps someone could modify my house keys...";
                 }
             }
         }
     }
     void Fade()
     {
-        text.CrossFadeAlpha(1f, 1, false);
-        image.CrossFadeAlpha(1f, 1, false);
+        text.CrossFadeAlpha(1f, 1f, false);
+        image.CrossFadeAlpha(1f, 1f, false);
     }
     void OnTriggerExit2D(Collider2D other)
     {

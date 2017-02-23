@@ -60,6 +60,9 @@ public class UpgradeSword : MonoBehaviour
                 {
                     effectplayer.clip = upgrade;
                     effectplayer.Play();
+
+                    Invoke("Lava",4);
+
                     anim.SetBool("Upgraded", true);
                     upgraded = true;
                     attack.damage += 17;
@@ -110,5 +113,11 @@ public class UpgradeSword : MonoBehaviour
             text.CrossFadeAlpha(1f, 2, false);
             image.CrossFadeAlpha(1f, 2, false);
         }
+    }
+
+    public void Lava()
+    {
+        effectplayer.clip = lava;
+        effectplayer.Play();
     }
 }

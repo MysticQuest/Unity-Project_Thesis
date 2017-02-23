@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour {
 
@@ -20,12 +21,20 @@ public class PlayerHealth : MonoBehaviour {
     public Animator anim;
 
     //public GameObject blood;
-    public SpriteRenderer bleed;
     //public Transform blood;
+    public SpriteRenderer bleed;
     public float bleedtimer;
 
-	// Use this for initialization
-	void Start ()
+    public GameObject house;
+    public HouseHealth houseHealth;
+    public GameObject cheats;
+    public Text cheatnote;
+    public AudioSource note;
+    public AudioClip notecheat;
+    public bool cheatmode = false;
+
+    // Use this for initialization
+    void Start()
     {
         anim = GetComponent<Animator>();
         playerMovement = GetComponent<PlayerMovement>();
@@ -39,7 +48,15 @@ public class PlayerHealth : MonoBehaviour {
         bleed = transform.Find("bleed").GetComponent<SpriteRenderer>();
 
         player = GameObject.FindWithTag("Player");
-	}
+
+        house = GameObject.FindWithTag("HouseHitbox");
+        houseHealth = house.GetComponent<HouseHealth>();
+        cheats = GameObject.Find("Cheats");
+        cheatnote = cheats.GetComponent<Text>();
+        note = player.GetComponent<AudioSource>();
+
+        cheatnote.enabled = false;
+    }
 
     // Update is called once per frame
     void Update()
@@ -50,8 +67,12 @@ public class PlayerHealth : MonoBehaviour {
 
         if (regen == true)
         {
-            currentHealth += Time.deltaTime * 2;
+            currentHealth += Time.deltaTime * 2f;
             maxHealth = 150;
+            if (cheatmode == true)
+            {
+                currentHealth += Time.deltaTime * 20f;
+            }
         }
         if (currentHealth > maxHealth)
         {
@@ -62,6 +83,21 @@ public class PlayerHealth : MonoBehaviour {
         {
             bleed.enabled = false;
             bleedtimer = 0;
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.Backspace))
+        {
+            cheatmode = true;
+            note.clip = notecheat;
+            note.Play();
+        }
+
+        if (cheatmode == true)
+        {
+            houseHealth.currentHealth += Time.deltaTime * 80f;
+            currentHealth += Time.deltaTime * 30f;
+            cheatnote.enabled = true;
         }
     }
 

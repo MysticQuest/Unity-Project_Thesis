@@ -82,8 +82,8 @@ public class Shady : MonoBehaviour
         choiceA.SetActive(false);
         selection.SetActive(false);
         Cursor.visible = false;
-        text.CrossFadeAlpha(1f, 2, false);
-        image.CrossFadeAlpha(1f, 2, false);
+        text.CrossFadeAlpha(1f, 1f, true);
+        image.CrossFadeAlpha(1f, 1f, true);
     }
 
 
@@ -348,6 +348,13 @@ public class Shady : MonoBehaviour
         choiceA.SetActive(false);
         Time.timeScale = 1;
 
+    }
+
+    public void Leave()
+    {
+        selection.SetActive(false);
+        Cursor.visible = false;
+        Time.timeScale = 1;
     }
 }
 

@@ -111,6 +111,7 @@ public class SceneMusic : MonoBehaviour
     {
         musicplayer.clip = boss;
         musicplayer.Play();
+        musicplayer.volume = 0.70f;
         if (musicplayer.volume < 0.068f)
         {
             musicplayer.volume += Time.deltaTime * 0.017f;
@@ -121,6 +122,7 @@ public class SceneMusic : MonoBehaviour
     {
         musicplayer.clip = gameover;
         musicplayer.Play();
+        musicplayer.volume = 0.070f;
 
         blackimage.CrossFadeAlpha(255f, 2f, true);
         endtext.CrossFadeAlpha(255f, 3f, true);
